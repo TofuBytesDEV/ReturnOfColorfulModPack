@@ -1,11 +1,11 @@
 {
-  "title" : "Light Modpack",
-  "name" : "Light Modpack",
+  "title" : "Return of Colorful Mod Pack",
+  "name" : "Return of Colorful Mod Pack",
   "version" : "20100223",
   "minimumVersion" : 2,
   "librariesLocation" : "libraries",
   "objectsLocation" : "objects",
-  "gameVersion" : "1.8",
+  "gameVersion" : "1.10.2",
   "features" : [ {
     "name" : "CoolGrass",
     "description" : "CoolGrass gives you a cool grass."
