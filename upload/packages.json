@@ -1,12 +1,12 @@
 {
-    "minimumVersion": 1,
-    "packages": [
-        {
-            "name": "Return of Colorful Mod Pack",
-            "title": "Return of Colorful Mod Pack",
-            "version": "20100223",
-            "location": "colorfulpack.json",
-            "priority": 1
-        }
-    ]
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "Return of Colorful Mod Pack",
+      "name" : "Return of Colorful Mod Pack",
+      "version" : "1",
+      "location" : "return-of-colorful-mod-pack.json",
+      "priority" : 0
+    }
+  ]
 }
