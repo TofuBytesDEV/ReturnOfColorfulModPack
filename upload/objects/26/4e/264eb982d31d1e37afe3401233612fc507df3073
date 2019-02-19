@@ -1,0 +1,16 @@
+#Properties for LiteLoader 1.10.2
+#Mon Feb 18 16:19:53 PST 2019
+forceInjection=false
+soundManagerFix=true
+tabAlwaysExpanded=false
+search.jarfiles=true
+search.mods=true
+log=stderr
+version.armorshudrevived=38
+allowForceUpdate=false
+version.mousetweaks=38
+loadingbar=true
+search.classpath=true
+modInfoScreen=true
+search.jar=false
+disableJInput=false
