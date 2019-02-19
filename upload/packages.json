@@ -2,17 +2,10 @@
     "minimumVersion": 1,
     "packages": [
         {
-            "name": "Light Modpack",
-            "title": "Light Modpack",
+            "name": "Return of Colorful Mod Pack",
+            "title": "Return of Colorful Mod Pack",
             "version": "20100223",
-            "location": "lightpack.json",
-            "priority": 1
-        },
-        {
-            "name": "Monster Modpack",
-            "title": "Monster Modpack",
-            "version": "20100223",
-            "location": "monsterpack.json",
+            "location": "colorfulpack.json",
             "priority": 1
         }
     ]
