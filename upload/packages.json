@@ -4,8 +4,15 @@
     {
       "title" : "Return of Colorful Mod Pack",
       "name" : "Return of Colorful Mod Pack",
-      "version" : "1",
+      "version" : "2019-02-19-01-59-57",
       "location" : "return-of-colorful-mod-pack.json",
+      "priority" : 1
+    },
+    {
+      "title" : "Vanilla Forge",
+      "name" : "Vanilla Forge",
+      "version" : "2019-02-19-02-07-09",
+      "location" : "vanilla-forge.json",
       "priority" : 0
     }
   ]
