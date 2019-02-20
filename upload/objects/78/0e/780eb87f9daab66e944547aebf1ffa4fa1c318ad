@@ -1,0 +1,51 @@
+# Configuration file
+
+##########################################################################################################
+# keybinds
+#--------------------------------------------------------------------------------------------------------#
+# If you're reading this in the config file, I would strongly recommend changing the keybinds in-game.
+# iChunUtil uses custom keybinds. Go to the options page and hit O to show other options.
+# 
+# If you really have to edit the config file, the format is <key code>, and append either ":SHIFT", ":CTRL", or ":ALT" for keys you want to hold down at the same time.
+# For key codes go to: http://minecraft.gamepedia.com/Key_codes 
+# Example: 48:SHIFT:ALT will bind to the B key when you hold Shift and Alt.
+##########################################################################################################
+
+keybinds {
+    S:hats.guiKeyBind=35
+
+    # Key to grab blocks/entities with the Portal Gun [default: 34]
+    S:portalgun.keyGrab=34
+
+    # Key to reset portals of your Portal Gun [default: 19]
+    S:portalgun.keyReset=19
+
+    # Key to zoom and unzoom the Portal Gun [default: -98]
+    S:portalgun.keyZoom=-98
+
+    # trailmix.config.prop.fireballKey.comment [default: -98]
+    S:trailmix.fireballKey=-98
+
+    # trailmix.config.prop.pitchDownKey.comment [default: 17]
+    S:trailmix.pitchDownKey=17
+
+    # trailmix.config.prop.pitchUpKey.comment [default: 31]
+    S:trailmix.pitchUpKey=31
+
+    # trailmix.config.prop.speedDownKey.comment [default: 29]
+    S:trailmix.speedDownKey=29
+
+    # trailmix.config.prop.speedUpKey.comment [default: 57]
+    S:trailmix.speedUpKey=57
+
+    # trailmix.config.prop.strafeLeftKey.comment [default: 30]
+    S:trailmix.strafeLeftKey=30
+
+    # trailmix.config.prop.strafeRightKey.comment [default: 32]
+    S:trailmix.strafeRightKey=32
+
+    # trailmix.config.prop.tightTurnKey.comment [default: 57]
+    S:trailmix.tightTurnKey=57
+}
+
+
