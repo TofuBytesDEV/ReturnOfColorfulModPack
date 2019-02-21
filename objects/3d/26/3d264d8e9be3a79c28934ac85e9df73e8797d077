@@ -1,0 +1,75 @@
+# Configuration file
+
+##########################################################################################################
+# clientonly
+#--------------------------------------------------------------------------------------------------------#
+# These options affect only the client that loads the mod.\nIf you are looking for keybinds, look for them in ichunutil_keybinds.cfg.
+##########################################################################################################
+
+clientonly {
+    # trailmix.config.prop.explosionBubble.comment [range: 0 ~ 1, default: 1]
+    I:explosionBubble=1
+
+    # trailmix.config.prop.replaceRender.comment [range: 0 ~ 1, default: 1]
+    I:replaceRender=1
+
+    # trailmix.config.prop.showFlightTimer.comment [range: 0 ~ 1, default: 1]
+    I:showFlightTimer=1
+}
+
+
+##########################################################################################################
+# keybind
+#--------------------------------------------------------------------------------------------------------#
+# If you're reading this in the config file, I would strongly recommend changing the keybinds in-game.\niChunUtil uses custom keybinds. Go to the options page and hit O to show other options.\n\nIf you really have to edit the config file, the format is <key code>, and append either ":SHIFT", ":CTRL", or ":ALT" for keys you want to hold down at the same time.\nFor key codes go to: http://minecraft.gamepedia.com/Key_codes \nExample: 48:SHIFT:ALT will bind to the B key when you hold Shift and Alt.
+##########################################################################################################
+
+keybind {
+}
+
+
+##########################################################################################################
+# potioneffect
+#--------------------------------------------------------------------------------------------------------#
+# trailmix.config.cat.potionEffect.comment
+##########################################################################################################
+
+potioneffect {
+    # trailmix.config.prop.fallDampening.comment [range: 0 ~ 2147483647, default: 1]
+    I:fallDampening=1
+
+    # trailmix.config.prop.horseClearZone.comment [range: 0 ~ 2, default: 2]
+    I:horseClearZone=2
+
+    # trailmix.config.prop.horseFireTrail.comment [range: 0 ~ 1, default: 1]
+    I:horseFireTrail=1
+
+    # trailmix.config.prop.pigExplosion.comment [range: 0 ~ 2, default: 2]
+    I:pigExplosion=2
+
+    # trailmix.config.prop.potDuration.comment [range: 0 ~ 2147483647, default: 200]
+    I:potDuration=200
+
+    # trailmix.config.prop.potFireball.comment [range: 0 ~ 1, default: 1]
+    I:potFireball=1
+
+    # trailmix.config.prop.potFireballCooldown.comment [range: 0 ~ 2147483647, default: 20]
+    I:potFireballCooldown=20
+
+    # trailmix.config.prop.potFireballMinReq.comment [range: 0 ~ 2147483647, default: 1200]
+    I:potFireballMinReq=1200
+
+    # trailmix.config.prop.potFireballUse.comment [range: 0 ~ 2147483647, default: 100]
+    I:potFireballUse=100
+
+    # trailmix.config.prop.potID.comment [range: 0 ~ 31, default: 0]
+    I:potID=0
+
+    # trailmix.config.prop.potPoisoning.comment [range: 0 ~ 2147483647, default: 3600]
+    I:potPoisoning=3600
+
+    # trailmix.config.prop.potSpeed.comment [range: 0 ~ 2147483647, default: 3]
+    I:potSpeed=3
+}
+
+

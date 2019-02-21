@@ -1,0 +1,104 @@
+# Configuration file
+
+##########################################################################################################
+# capabilities
+#--------------------------------------------------------------------------------------------------------#
+# gravitygun.config.cat.capabilities.comment
+##########################################################################################################
+
+capabilities {
+    # gravitygun.config.prop.capabilitiesGrabBlock.comment [range: 0 ~ 2, default: 0]
+    I:capabilitiesGrabBlock=0
+
+    # gravitygun.config.prop.capabilitiesGrabBosses.comment [range: 0 ~ 2, default: 2]
+    I:capabilitiesGrabBosses=2
+
+    # gravitygun.config.prop.capabilitiesGrabDistanceAdjust.comment [range: 0 ~ 2, default: 0]
+    I:capabilitiesGrabDistanceAdjust=0
+
+    # gravitygun.config.prop.capabilitiesGrabEntity.comment [range: 0 ~ 2, default: 0]
+    I:capabilitiesGrabEntity=0
+
+    # gravitygun.config.prop.capabilitiesGrabPlayer.comment [range: 0 ~ 2, default: 1]
+    I:capabilitiesGrabPlayer=1
+
+    # gravitygun.config.prop.capabilitiesGrabTileEntity.comment [range: 0 ~ 2, default: 1]
+    I:capabilitiesGrabTileEntity=1
+
+    # gravitygun.config.prop.capabilitiesPullBlock.comment [range: 0 ~ 2, default: 1]
+    I:capabilitiesPullBlock=1
+
+    # gravitygun.config.prop.capabilitiesPullBosses.comment [range: 0 ~ 2, default: 2]
+    I:capabilitiesPullBosses=2
+
+    # gravitygun.config.prop.capabilitiesPullEntity.comment [range: 0 ~ 2, default: 0]
+    I:capabilitiesPullEntity=0
+
+    # gravitygun.config.prop.capabilitiesPullPlayer.comment [range: 0 ~ 2, default: 1]
+    I:capabilitiesPullPlayer=1
+
+    # gravitygun.config.prop.capabilitiesPullTileEntity.comment [range: 0 ~ 2, default: 1]
+    I:capabilitiesPullTileEntity=1
+
+    # gravitygun.config.prop.capabilitiesPushEntity.comment [range: 0 ~ 2, default: 0]
+    I:capabilitiesPushEntity=0
+
+    # gravitygun.config.prop.capabilityCreeperDetonation.comment [range: 0 ~ 2, default: 1]
+    I:capabilityCreeperDetonation=1
+
+    # gravitygun.config.prop.entityGrabMaxWeight.comment [range: 0 ~ 2147483647, default: 150]
+    I:entityGrabMaxWeight=150
+
+    # gravitygun.config.prop.pullDistance.comment [range: 5 ~ 100, default: 10]
+    I:pullDistance=10
+
+    # gravitygun.config.prop.pushFactor.comment [range: 5 ~ 100, default: 10]
+    I:pushFactor=10
+
+    # gravitygun.config.prop.superchargedAmplifyFactorGrab.comment [range: 100 ~ 2147483647, default: 200]
+    I:superchargedAmplifyFactorGrab=200
+
+    # gravitygun.config.prop.superchargedAmplifyFactorGrabDistance.comment [range: 100 ~ 2147483647, default: 300]
+    I:superchargedAmplifyFactorGrabDistance=300
+
+    # gravitygun.config.prop.superchargedAmplifyFactorPull.comment [range: 100 ~ 2147483647, default: 150]
+    I:superchargedAmplifyFactorPull=150
+
+    # gravitygun.config.prop.superchargedAmplifyFactorPush.comment [range: 100 ~ 2147483647, default: 130]
+    I:superchargedAmplifyFactorPush=130
+}
+
+
+##########################################################################################################
+# clientonly
+#--------------------------------------------------------------------------------------------------------#
+# These options affect only the client that loads the mod.\nIf you are looking for keybinds, look for them in ichunutil_keybinds.cfg.
+##########################################################################################################
+
+clientonly {
+    # gravitygun.config.prop.equipItemSound.comment [range: 0 ~ 1, default: 1]
+    I:equipItemSound=1
+
+    # gravitygun.config.prop.forceFancyGravityGun.comment [range: 0 ~ 1, default: 0]
+    I:forceFancyGravityGun=0
+
+    # gravitygun.config.prop.renderLeftHand.comment [range: 0 ~ 1, default: 1]
+    I:renderLeftHand=1
+
+    # gravitygun.config.prop.superchargedVibrationIntensity.comment [range: 0 ~ 1800, default: 10]
+    I:superchargedVibrationIntensity=10
+}
+
+
+##########################################################################################################
+# general
+#--------------------------------------------------------------------------------------------------------#
+# These options are general options that don't fit any other category.
+##########################################################################################################
+
+general {
+    # gravitygun.config.prop.enableSuperchargedRecipe.comment [range: 0 ~ 1, default: 1]
+    I:enableSuperchargedRecipe=1
+}
+
+

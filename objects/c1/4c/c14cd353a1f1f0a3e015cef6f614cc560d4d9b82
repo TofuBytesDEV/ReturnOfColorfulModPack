@@ -1,0 +1,24 @@
+# Configuration file
+
+generation {
+    B:genBambooInOverworld=true
+    B:genOverworldPalmsInBeachOnly=false
+    B:genPalmsInOverworld=true
+    B:genPineapplesInOverworld=true
+    B:genTropicraftEIHInOverworld=true
+    B:genTropicraftFlowersInOverworld=true
+
+    # If false, no Tropicraft generation will occur at all in the overworld.
+    B:genTropicraftInOverworld=true
+    I:palmChanceOfGenInOverworld=-1
+    I:palmPopulationFactorInOverworld=3
+}
+
+
+misc {
+    B:allowVolcanoEruption=true
+    S:coconutBombWhitelist <
+     >
+}
+
+
