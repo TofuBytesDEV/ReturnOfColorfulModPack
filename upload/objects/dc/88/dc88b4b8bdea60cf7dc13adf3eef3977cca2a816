@@ -1,0 +1,22 @@
+{
+    "name": "More Saplings",
+    "icon": "minecraft:sapling",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "What about obtaining more saplings? Well with a $(item)Crook/$ is possible! Breaking leaves with a crook will reward more saplings and apples than normal. It even adds a chance to obtain $(item)Silk Worms/$ when breaking leaves."
+        },
+		{
+			"type": "crafting",
+			"recipe": "exnihilocreatio:crook_wood"
+		},
+		{
+			"type": "crafting",
+			"recipe": "exnihilocreatio:crook_bone",
+			"text": "A $(item)Bone Crook/$ is much faster than a normal Crook and is much more durable." 
+		}
+    ],
+	"sortnum": 8,
+	"advancement": "skythermal:getting_started/composting"
+}

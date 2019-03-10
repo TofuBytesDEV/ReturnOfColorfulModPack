@@ -1,0 +1,17 @@
+{
+    "name": "Cobblestone!",
+    "icon": "minecraft:cobblestone",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You may have noticed that by sieveing Dirt you obtained some $(item)Stone Pebbles/$. Crafting 4 of this pebbles will make $(item)Cobblestone/$!"
+        },
+		{
+			"type": "crafting",
+			"recipe": "exnihilocreatio:cobblestone"
+		}
+    ],
+	"sortnum": 12,
+	"advancement": "skythermal:getting_started/sieving"
+}

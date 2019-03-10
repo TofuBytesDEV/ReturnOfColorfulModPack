@@ -1,0 +1,8 @@
+//This file was created via CT-GUI! Editing it is not advised!
+//Don't touch me!
+//#Remove
+recipes.remove(<jasbtweaks:fertilized_dirt>);
+//Don't touch me!
+//#Add
+recipes.addShaped(<jasbtweaks:fertilized_dirt>, [[<minecraft:bone>, <ore:listAllseed>, <minecraft:bone>],[<ore:listAllseed>, <jasbtweaks:rich_dirt>, <ore:listAllseed>], [<minecraft:bone>, <ore:listAllseed>, <minecraft:bone>]]);
+//File End

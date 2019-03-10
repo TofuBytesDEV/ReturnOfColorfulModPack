@@ -1,0 +1,17 @@
+{
+    "name": "A word about Hunger",
+    "icon": "minecraft:apple",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "By now you should have already noticed the $(thing)\"Carrot Button\"/$ in your inventory. The interface that pops out shows you 5 categories. Those categories are the type of foods you must eat to stay healthy. If you reach $(thing)good levels/$ of a category you'll get rewarded with $(thing)more health/$ ... but if you $(thing)fall too behind/$ in a category you'll $(thing)lose health/$."
+        },
+		{
+			"type": "text",
+			"text": "Don't worry ... at the start you have plenty of each category that will take a lot to get too low.<br>If you die you lose 10% of each category.<br>If you get too low on average of the categories you'll get debuffs like mining fatigue, instead if you get high average you'll get some buffs like resistance.<br>And health now regens if you have at least 7 of hunger instead of 18."
+		}
+    ],
+	"sortnum": 1,
+	"advancement": "skythermal:getting_started/hunger"
+}

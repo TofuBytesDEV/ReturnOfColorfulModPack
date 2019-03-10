@@ -1,0 +1,10 @@
+setIcon(<thermalexpansion:dynamo:1>)
+
+setTitle("Lava Energy")
+
+setDescription("Obtain a Magmatic Dynamo")
+
+addParent("skythermal:some_automation/induction_smelter")
+
+criteria1 = addCriteria("magmatic", "minecraft:inventory_changed")
+criteria1.addItem(<thermalexpansion:dynamo:1>)

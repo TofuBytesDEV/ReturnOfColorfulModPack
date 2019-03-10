@@ -1,0 +1,17 @@
+setIcon(<exnihilocreatio:block_sieve>)
+
+setTitle("Sieving")
+
+setDescription("Craft a Sieve")
+
+addParent("skythermal:getting_started/no_spiders_needed")
+
+criteria1 = addCriteria("sieve", "minecraft:inventory_changed")
+criteria1.addItem(<exnihilocreatio:block_sieve>)
+
+criteria2 = addCriteria("mesh", "minecraft:inventory_changed")
+criteria2.addItem(<exnihilocreatio:item_mesh:1>)
+
+criteria3 = addCriteria("sieve_dirt", "triumph:right_click_block")
+criteria3.setItem(<minecraft:dirt>)
+criteria3.setBlock(<exnihilocreatio:block_sieve>)

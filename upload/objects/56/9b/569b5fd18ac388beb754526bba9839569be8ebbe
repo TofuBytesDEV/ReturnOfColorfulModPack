@@ -1,0 +1,13 @@
+{
+    "name": "Quark's Decoration",
+    "icon": "quark:glass_item_frame",
+    "category": "building",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Quark mod adds even a Decoration Module: $(item)Colored Flower Pots/$, $(item)Colored Item Frames/$, $(item)More Types of Chests/$, $(item)Candles/$, and much more ..."
+        }
+    ],
+	"sortnum": 3,
+	"advancement": "skythermal:getting_started/iron"
+}

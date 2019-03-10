@@ -1,0 +1,13 @@
+
+setIcon(<minecraft:stone_axe>)
+
+setTitle("Better Tools")
+
+setDescription("Acquire a Stone axe")
+
+addParent("skythermal:getting_started/sieving")
+
+criteria1 = addCriteria("planks", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:stone_axe>)
+
+//setRequirements("all")

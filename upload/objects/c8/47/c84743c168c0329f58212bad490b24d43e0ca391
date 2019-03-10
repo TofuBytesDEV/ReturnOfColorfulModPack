@@ -1,0 +1,17 @@
+{
+    "name": "Furnace by Energy",
+    "icon": "thermalexpansion:machine:0",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This is the First Machine you're going to make and need: a $(item)Redstone Furnace/$. This is basically a Furnace that uses Energy to work and can be upgraded to be faster and more efficient."
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermalexpansion:machine"
+		}
+    ],
+	"sortnum": 102,
+	"advancement": "skythermal:some_automation/need_energy"
+}

@@ -1,0 +1,10 @@
+setIcon(<minecraft:slime_ball>)
+
+setTitle("Slimeballs")
+
+setDescription("Obtain a Slimeball")
+
+addParent("skythermal:getting_started/soul_sand")
+
+criteria1 = addCriteria("slime_ball", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:slime_ball>)

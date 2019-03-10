@@ -1,0 +1,22 @@
+setIcon(<minecraft:wheat_seeds>)
+
+setTitle("Farming Simulator")
+
+setDescription("Obtain Wheat, Carrots, Potatoes, Beetroots and Corn")
+
+addParent("skythermal:getting_started/iron")
+
+criteria1 = addCriteria("wheat", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:wheat>)
+
+criteria2 = addCriteria("carrot", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:carrot>)
+
+criteria3 = addCriteria("potato", "minecraft:inventory_changed")
+criteria3.addItem(<minecraft:potato>)
+
+criteria4 = addCriteria("beetroot", "minecraft:inventory_changed")
+criteria4.addItem(<minecraft:beetroot>)
+
+criteria5 = addCriteria("corn", "minecraft:inventory_changed")
+criteria5.addItem(<simplecorn:corncob>)

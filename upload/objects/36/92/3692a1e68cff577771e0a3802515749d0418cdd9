@@ -1,0 +1,13 @@
+setIcon(<minecraft:apple>)
+
+setTitle("Hunger Mechanics")
+
+setDescription("")
+
+addParent("skythermal:getting_started/getting_wood")
+
+criteria1 = addCriteria("strings", "minecraft:consume_item")
+
+hiddenUnless("skythermal:getting_started/hunger")
+
+setAnnounceToChat(false)

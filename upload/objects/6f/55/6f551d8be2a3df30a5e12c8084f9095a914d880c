@@ -1,0 +1,13 @@
+{
+    "name": "Worms and Strings",
+    "icon": "exnihilocreatio:item_material:2",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "With Strings we could approach Cobblestone! Those disgusting $(item)Silk Worms/$ are useful to infest Leaves and obtain Strings.$(br)When a leaf is right clicked with a Silk Worm it will be infested. Once the infestation is completed, breaking the leaf with a Crook will drop a String."
+        }
+    ],
+	"sortnum": 9,
+	"advancement": "skythermal:getting_started/more_saplings"
+}

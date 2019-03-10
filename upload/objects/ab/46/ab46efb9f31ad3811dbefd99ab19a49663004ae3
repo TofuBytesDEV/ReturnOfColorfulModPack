@@ -1,0 +1,18 @@
+{
+    "name": "Lava Energy",
+    "icon": "thermalexpansion:dynamo:1",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Using Water and solid fuel is not that good to obtain Energy since you don't have that much fuel. It's then time to upgrade our $(item)Steam Dynamo/$ to a better one: $(item)Magmatic Dynamo/$.<br>"
+        },
+		{
+			"type": "crafting",
+			"recipe": "crafttweaker:magmatic_dynamo",
+			"text": "Magmatic Dynamos take Lava as fuel and since you can generate infinite Lava with a Crucible you can automate the Lava and Energy Creation."
+		}
+    ],
+	"sortnum": 107,
+	"advancement": "skythermal:some_automation/induction_smelter"
+}

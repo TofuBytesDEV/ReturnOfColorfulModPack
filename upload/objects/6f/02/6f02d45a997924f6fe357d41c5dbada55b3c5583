@@ -1,0 +1,10 @@
+setIcon(<minecraft:cobblestone>)
+
+setTitle("Cobblestone!")
+
+setDescription("Obtain some Cobblestone")
+
+addParent("skythermal:getting_started/sieving")
+
+criteria1 = addCriteria("cobblestone", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:cobblestone, count:2~>)

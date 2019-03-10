@@ -1,0 +1,18 @@
+{
+    "name": "Gravel, Sand and Dust",
+    "icon": "minecraft:gravel",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Since you have Cobblestone you can now obtain $(item)Gravel/$, $(item)Sand/$ and $(item)Dust/$. \"How?\" you may ask. Well $(italic)it's actually surprisingly simple/$. By $(thing)smashing/$ Cobblestone. Craft an $(item)Hammer/$ (either made of Wood or Stone) and destroy Cobblestone with it, you'll get Gravel. This process can be repeated with Gravel to obtain Sand and Sand to obtain Dust."
+        },
+		{
+			"type": "crafting",
+			"recipe": "exnihilocreatio:hammer_wood",
+			"recipe2": "exnihilocreatio:hammer_stone"
+		}
+    ],
+	"sortnum": 16,
+	"advancement": "skythermal:getting_started/cobblestone"
+}

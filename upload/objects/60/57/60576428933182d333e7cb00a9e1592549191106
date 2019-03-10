@@ -1,0 +1,10 @@
+setIcon(<chisel:chisel_iron>)
+
+setTitle("Chiseling")
+
+setDescription("Obtain an Iron Chisel")
+
+addParent("skythermal:getting_started/iron")
+
+criteria1 = addCriteria("chisel", "minecraft:inventory_changed")
+criteria1.addItem(<chisel:chisel_iron>)

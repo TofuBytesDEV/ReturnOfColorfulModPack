@@ -1,0 +1,18 @@
+{
+    "name": "Hammer or Wrench?",
+    "icon": "thermalfoundation:wrench",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Placing machines can be slightly annoying, or even removing Ducts or Tanks, that's why it's now time to make a Wrench ... or was it an Hammer? Well for some reasons the Wrench is called $(item)Crescent Hammer/$, but as it states: $(italic)Actually a Wrench, but anything is an Hammer if you need it to be one/$."
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermalfoundation:wrench",
+			"text": "It's pretty useful since can rotate machines and dismantle them with a Shift Right-Click!"
+		}
+    ],
+	"sortnum": 1,
+	"advancement": "skythermal:some_automation/automation_age"
+}

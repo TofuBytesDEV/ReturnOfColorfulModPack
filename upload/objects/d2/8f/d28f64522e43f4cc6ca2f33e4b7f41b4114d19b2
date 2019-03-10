@@ -1,0 +1,16 @@
+
+recipes.remove(<blockcraftery:editable_inner_corner>);
+recipes.remove(<blockcraftery:editable_outer_corner>);
+recipes.remove(<blockcraftery:editable_slant>);
+
+
+recipes.remove(<blockcraftery:editable_fence>);
+recipes.remove(<blockcraftery:editable_wall>);
+recipes.remove(<blockcraftery:editable_slab>);
+recipes.remove(<blockcraftery:editable_stairs>);
+recipes.remove(<blockcraftery:editable_block>);
+
+recipes.addShaped("editable_fence", <blockcraftery:editable_fence> * 3, [[null, null, null],[null, <minecraft:stick>, <minecraft:stick>], [null, <minecraft:stick>, <minecraft:stick>]]);
+recipes.addShaped("editable_wall", <blockcraftery:editable_wall> * 3, [[null, null, null],[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]]);
+recipes.addShaped("editable_slab", <blockcraftery:editable_slab> * 3, [[null, null, null],[null, null, null], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]]);
+recipes.addShaped("editable_stairs", <blockcraftery:editable_stairs> * 4, [[null, null, <minecraft:stick>],[null, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]]);

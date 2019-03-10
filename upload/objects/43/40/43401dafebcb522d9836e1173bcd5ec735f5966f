@@ -1,0 +1,18 @@
+{
+    "name": "Sieveing",
+    "icon": "exnihilocreatio:block_sieve",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Now, with strings and wood you can make a $(item)Sieve/$ with $(item)String Mesh/$.<br>Sieves are the main source of items here since you can obtain $(item)Cobblestone/$! But even other stone types, crops seeds and more.<br>Other Tree's Saplings can be obtained by sieving leaves."
+        },
+		{
+			"type": "crafting",
+			"recipe": "exnihilocreatio:sieve",
+			"recipe2": "exnihilocreatio:item_mesh_1"
+		}
+    ],
+	"sortnum": 11,
+	"advancement": "skythermal:getting_started/no_spiders_needed"
+}

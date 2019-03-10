@@ -1,0 +1,11 @@
+
+setIcon(<contenttweaker:fake_grass>)
+
+setTitle("Dirt? & Grass Block?")
+
+setDescription("Destroy a block of Grass? or Dirt?")
+
+addParent("skythermal:getting_started/getting_wood")
+
+criteria2 = addCriteria("dirt", "triumph:player_break_block")
+criteria2.setBlock(<contenttweaker:fake_grass>)

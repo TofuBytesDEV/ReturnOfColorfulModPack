@@ -1,0 +1,17 @@
+setIcon(<excompressum:compressed_block:1>)
+
+setTitle("Less Grinding")
+
+setDescription("Break a Compressed Cobblestone with a Compressed Hammer")
+
+addParent("skythermal:getting_started/gravel_sand_dust")
+
+criteria1 = addCriteria("wood", "triumph:player_break_block")
+criteria1.setItem(<excompressum:compressed_hammer_wood, meta:~>)
+criteria1.setBlock(<excompressum:compressed_block:1>)
+
+criteria2 = addCriteria("stone", "triumph:player_break_block")
+criteria2.setItem(<excompressum:compressed_hammer_stone, meta:~>)
+criteria2.setBlock(<excompressum:compressed_block:1>)
+
+setRequirements("any")

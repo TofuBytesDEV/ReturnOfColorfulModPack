@@ -1,0 +1,10 @@
+setIcon(<thermalfoundation:material:256>)
+
+setTitle("Machines and Automation")
+
+setDescription("Let's start making things automatic")
+
+addParent("skythermal:getting_started/lava")
+
+criteria = addCriteria("completedParent", "triumph:completed_advancement")
+criteria.setAdvancement("skythermal:getting_started/lava")

@@ -1,0 +1,10 @@
+setIcon(<thermalexpansion:cell>)
+
+setTitle("Storing Energy")
+
+setDescription("Obtain an Energy Cell")
+
+addParent("skythermal:some_automation/induction_smelter")
+
+criteria1 = addCriteria("cell", "minecraft:inventory_changed")
+criteria1.addItem(<thermalexpansion:cell>)

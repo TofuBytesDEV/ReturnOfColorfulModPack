@@ -1,0 +1,26 @@
+{
+    "name": "Less Grinding?",
+    "icon": "excompressum:compressed_block:1",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ok, grinding this much might seem really slow ... and it is. But there's a way to make it sightly less grindy: $(thing)Compressed Blocks and Hammers/$."
+        },
+		{
+			"type": "crafting",
+			"recipe": "excompressum:compressed_cobblestone",
+			"recipe2": "excompressum:compressed_hammer_stone"
+		},
+        {
+            "type": "text",
+            "text": "On the previous page you can see the crafting for a $(item)Compressed Cobblestone/$ and a $(item)Compressed Hammer/$ (can be any material). Breaking a Compressed Block with a Compressed Hammer will give 9 Blocks of the Hammered Block. E.g. With Compressed Cobblestone you get 9 Gravel. This will make grinding sightly faster since you need to break 1 block instead of 9."
+        },
+        {
+            "type": "text",
+            "text": "To reduce grinding even more you can put more $(item)Sieves/$ next to each other with the same Mesh and $(thing)when sieving you'll use all the adiacent Sieves/$."
+        }
+    ],
+	"sortnum": 17,
+	"advancement": "skythermal:getting_started/gravel_sand_dust"
+}

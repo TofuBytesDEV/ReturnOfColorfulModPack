@@ -1,0 +1,18 @@
+{
+    "name": "Storing Fluids",
+    "icon": "thermalexpansion:tank:0",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You have already generated Water and Lava, but keeping them around can be annoying (and dangerous for Lava). It's time to make a $(item)Portable Tank/$, a block that can $(thing)store good quantities of fluids/$. Lava can be used to generate Energy so would be good to store some ... while Water is not infinite so generating more is needed."
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermalexpansion:tank",
+			"text": "To use it you need FluiDucts and Servos. You can't mine it to pick it up, you need a Wrench"
+		}
+    ],
+	"sortnum": 3,
+	"advancement": "skythermal:some_automation/energy_not_needed"
+}

@@ -1,0 +1,41 @@
+import crafttweaker.enchantments.IEnchantmentDefinition;
+
+recipes.remove(<excompressum:iron_mesh>);
+recipes.remove(<excompressum:compressed_crook>);
+/*recipes.remove(<excompressum:compressed_hammer_diamond>);
+recipes.remove(<excompressum:compressed_hammer_gold>);
+recipes.remove(<excompressum:compressed_hammer_iron>);
+recipes.remove(<excompressum:compressed_hammer_stone>);
+recipes.remove(<excompressum:compressed_hammer_wood>);*/
+recipes.remove(<excompressum:auto_heavy_sieve>);
+recipes.remove(<excompressum:auto_compressed_hammer>);
+recipes.remove(<excompressum:bait:6>);
+recipes.remove(<excompressum:heavy_sieve:5>);
+recipes.remove(<excompressum:heavy_sieve:4>);
+recipes.remove(<excompressum:heavy_sieve:3>);
+recipes.remove(<excompressum:heavy_sieve:2>);
+recipes.remove(<excompressum:heavy_sieve:1>);
+recipes.remove(<excompressum:heavy_sieve>);
+recipes.remove(<excompressum:compressed_block:5>);
+recipes.remove(<excompressum:compressed_block:0>);
+recipes.remove(<excompressum:compressed_block:8>);
+recipes.remove(<excompressum:compressed_block:7>);
+recipes.remove(<excompressum:compressed_block:6>);
+recipes.remove(<excompressum:compressed_block:4>);
+/*recipes.remove(<excompressum:compressed_block:10>);
+recipes.remove(<excompressum:compressed_block:9>);
+recipes.remove(<excompressum:compressed_block:4>);
+recipes.remove(<excompressum:compressed_block:3>);
+recipes.remove(<excompressum:compressed_block:2>);
+recipes.remove(<excompressum:compressed_block:1>);
+recipes.remove(<excompressum:compressed_block>);*/
+
+recipes.remove(<exnihilocreatio:block_endstone_crushed>);
+recipes.remove(<exnihilocreatio:block_netherrack_crushed>);
+recipes.remove(<excompressum:uncompressed_coal>);
+recipes.remove(<excompressum:auto_hammer>);
+
+//Any stone Hammer
+recipes.addShaped(<exnihilocreatio:hammer_stone>, [[null, <ore:materialStoneTool>, null],[null, <minecraft:stick>, <ore:materialStoneTool>], [<minecraft:stick>, null, null]]);
+
+//"disable" fishing enchantment

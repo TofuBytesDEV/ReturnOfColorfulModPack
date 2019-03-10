@@ -1,0 +1,18 @@
+{
+    "name": "We Need Energy",
+    "icon": "thermalexpansion:dynamo:0",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Before getting into the automation era, we need something to make those machines going: $(thing)Energy/$, precicely: $(thing)Redstone Flux/$. $(item)Dynamos/$ are the blocks that we will use. In this case we will start simple and make a $(item)Steam Dynamo/$. A machine that takes furnace fuel (Coal, etc.) and Water to generate Energy. You need 6 Copper, 2 Iron Ingot, 3 Redstone and a Silver Ingot."
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermalexpansion:dynamo",
+			"text": "To use it, place it by looking at the machine you want attach it. You can supply fuel (coal, etc.) via it's interface or via $(item)ItemDucts/$. Water can be added by right-clicking with a Water Bucket on it or via $(item)FluiDucts/$."
+		}
+    ],
+	"sortnum": 101,
+	"advancement": "skythermal:getting_started/lava"
+}

@@ -1,0 +1,8 @@
+# Configuration file
+
+config {
+    I:"Fertilized Dirt Decay Chance"=10
+    I:"Rich Dirt Decay Chance"=25
+}
+
+

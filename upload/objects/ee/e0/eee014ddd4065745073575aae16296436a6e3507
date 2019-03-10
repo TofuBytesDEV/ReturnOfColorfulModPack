@@ -1,0 +1,131 @@
+# Configuration file
+
+~CONFIG_VERSION: 0.1.0
+
+##########################################################################################################
+# advanced
+#--------------------------------------------------------------------------------------------------------#
+# Advanced config options to change the way JEI functions.
+##########################################################################################################
+
+advanced {
+    S:itemBlacklist <
+        quark:biotite_ore
+        excompressum:compressed_block:4
+        excompressum:compressed_block:5
+        tp:stone_hammer
+        thermalfoundation:material:260
+        excompressum:compressed_block:0
+        thermalfoundation:storage_resource:0
+        excompressum:compressed_block:6
+        excompressum:compressed_block:7
+        blockcraftery:editable_block
+        excompressum:compressed_block:8
+        thermalexpansion:augment:704
+        excompressum:compressed_crook
+        thermalfoundation:storage:4
+        minecraft:chain_command_block
+        exnihilocreatio:block_grinder
+        tp:ghost_block
+        minecraft:structure_void
+        ultimatecobblegen:endgenerator
+        exnihilocreatio:block_auto_sifter
+        minecraft:barrier
+        thermalfoundation:ore_fluid
+        excompressum:bait:6
+        thermalfoundation:material:68
+        tp:asphalt_block
+        ultimatecobblegen:soulgenerator
+        thermalexpansion:augment:304
+        minecraft:redstone_ore
+        fluid:vasholine
+        excompressum:auto_compressed_hammer
+        thermalfoundation:ore
+        tp:tiny_charcoal
+        exnihilocreatio:item_material:6
+        excompressum:uncompressed_coal
+        ultimatecobblegen:dustgenerator
+        thermalfoundation:material:96
+        ultimatecobblegen:quartzgenerator
+        excompressum:double_compressed_diamond_hammer
+        tp:quick_sand
+        ultimatecobblegen:icegenerator
+        thermalexpansion:augment:336
+        base:wrench
+        excompressum:heavy_sieve
+        blockcraftery:editable_outer_corner
+        thermalfoundation:material:324
+        minecraft:grass_path
+        ultimatecobblegen:sandgenerator
+        chesttransporter:chesttransporter_obsidian
+        chesttransporter:chesttransporter_tin
+        minecraft:structure_block
+        minecraft:gold_ore
+        thermalexpansion:augment:688
+        thermalexpansion:augment:720
+        ultimatecobblegen:nethergenerator
+        thermalexpansion:frame:129
+        minecraft:coal_ore
+        chisel:blockaluminum
+        ultimatecobblegen:glowstonegenerator
+        thermalexpansion:augment:352
+        exnihilocreatio:block_crucible_wood
+        minecraft:command_block_minecart
+        chesttransporter:chesttransporter_silver
+        exnihilocreatio:item_ore_aluminium
+        minecraft:quartz_ore
+        excompressum:bait:10
+        ultimatecobblegen:fungusgenerator
+        excompressum:bait:11
+        ultimatecobblegen:obsidiangenerator
+        excompressum:bait:12
+        chesttransporter:chesttransporter_copper
+        excompressum:ore_smasher
+        thermalfoundation:material:196
+        tp:tiny_coal
+        thermalfoundation:coin:68
+        minecraft:diamond_ore
+        minecraft:spawn_egg
+        blockcraftery:editable_inner_corner
+        ultimatecobblegen:snowgenerator
+        blockcraftery:editable_slant
+        minecraft:command_block
+        ultimatecobblegen:redstonegenerator
+        minecraft:knowledge_book
+        minecraft:mob_spawner
+        thermalexpansion:frame:146
+        chesttransporter:chesttransporter_gold
+        minecraft:repeating_command_block
+        excompressum:auto_heavy_sieve
+        thermalexpansion:frame:147
+        thermalfoundation:glass:4
+        thermalexpansion:frame:148
+        ultimatecobblegen:grassgenerator
+        minecraft:lapis_ore
+        thermalexpansion:augment:416
+        ultimatecobblegen:claygenerator
+        excompressum:iron_mesh
+        thermalexpansion:augment:256
+        excompressum:chicken_stick
+        tp:soul_sandstone
+        thermalexpansion:augment:497
+        thermalexpansion:augment:496
+        ultimatecobblegen:dirtgenerator
+        exnihilocreatio:block_axle_stone
+        thermalexpansion:frame:131
+        thermalfoundation:material:132
+        thermalexpansion:frame:132
+        tp:juicer
+        exnihilocreatio:block_waterwheel
+        exnihilocreatio:witchwater
+        ultimatecobblegen:gravelgenerator
+        excompressum:auto_hammer
+        tp:obsidian_dust
+        minecraft:iron_ore
+        minecraft:emerald_ore
+        simplecorn:corn
+        thermalexpansion:frame:130
+     >
+}
+
+

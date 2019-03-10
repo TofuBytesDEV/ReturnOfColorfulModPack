@@ -1,0 +1,6 @@
+
+recipes.remove(<chesttransporter:chesttransporter_obsidian>);
+recipes.remove(<chesttransporter:chesttransporter_tin>);
+recipes.remove(<chesttransporter:chesttransporter_silver>);
+recipes.remove(<chesttransporter:chesttransporter_copper>);
+recipes.remove(<chesttransporter:chesttransporter_gold>);

@@ -1,0 +1,27 @@
+{
+    "name": "Upgrade Complete",
+    "icon": "thermalfoundation:upgrade:1",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The new Magmatic Dynamo even if can generate Energy infinitely thanks to Lava sadly is twice as slow than the Steam counterpart. Maybe it's time to get an Upgrade, more precisely an $(item)Upgrade Kit/$. Those kits can be applied to any machine to increase their efficency. For example on a Dynamo it will increase the generation speed, on a machine like the Pulverizer will increase the process speed"
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermalfoundation:upgrade",
+			"text": "and on a Container will increase the capacity.<br>The first $(item)Upgrade Kit/$ is the $(item)Hardened/$ one. On $(thing)Dynamos/$ will increase their $(thing)generation speed by 100%/$ of base generation speed and on $(thing)Machines/$ will increase their $(thing)processing speed by 100%/$"
+		},
+        {
+            "type": "text",
+            "text": "of base processing speed (but even increases by 10% energy required).<br>Instead when used on $(thing)Cells, Caches or Tanks/$ their $(thing)capacity will increase by 4x/$.$(br2)The second $(item)Upgrade Kit/$ is the $(item)Reinforced/$ one. On $(thing)Cells, Caches or Tanks/$ their $(thing)capacity will increase by 9x/$ (of base capacity). Machines and Dynamos instead will have their things increased by another 50%. (So a total of 150% increase in generation and processing speed. But"
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermalfoundation:upgrade_1",
+			"text": "machines required energy for processing is increased to 25%.$(br2)Upgrade Kits must be applied by tier, you can't apply the Reinforced upgrade if you haven't already applied the Hardened one."
+		}
+    ],
+	"sortnum": 109,
+	"advancement": "skythermal:some_automation/magmatic_dynamo"
+}

@@ -1,0 +1,16 @@
+setIcon(<minecraft:gravel>)
+
+setTitle("Gravel, Sand and Dust")
+
+setDescription("Obtain Gravel Sand and Dust")
+
+addParent("skythermal:getting_started/cobblestone")
+
+criteria1 = addCriteria("gravel", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:gravel>)
+
+criteria2 = addCriteria("sand", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:sand>)
+
+criteria3 = addCriteria("dust", "minecraft:inventory_changed")
+criteria3.addItem(<exnihilocreatio:block_dust>)

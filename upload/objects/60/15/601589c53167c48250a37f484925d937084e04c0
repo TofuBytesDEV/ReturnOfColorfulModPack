@@ -1,0 +1,18 @@
+{
+    "name": "Potions",
+    "icon": "minecraft:nether_wart",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It's time for a trip in the empty (or almost empty) Nether. Nether Fortresses still spawn, but finding them is a little hassle since you need luck. Here comes the $(item)Soul Powder/$. An item made with the Soul Bead that you got from sieving Soul Sand and some Soul Sand."
+        },
+		{
+			"type": "spotlight",
+			"item": "quark:soul_powder",
+			"text": "When used in the Nether will start rotating and moving in the direction of the nearest fortress. If you're lucky enough, the nearest fortress should be a only a few thousands blocks away. Better placing slabs on the bottom side of a block so mobs don't spawn on the bridge you'll build to get to the fortress."
+		}
+    ],
+	"sortnum": 25,
+	"advancement": "skythermal:getting_started/soul_sand"
+}

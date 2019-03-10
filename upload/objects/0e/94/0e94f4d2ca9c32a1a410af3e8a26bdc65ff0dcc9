@@ -1,0 +1,11 @@
+setIcon(<quark:iron_rod>)
+
+setTitle("Why I need to Mine?")
+
+setDescription("Attack an Iron Rod to a Sticky Piston")
+
+addParent("skythermal:some_automation/energy_not_needed")
+
+criteria1 = addCriteria("iron_rod", "triumph:right_click_block")
+criteria1.setItem(<quark:iron_rod>)
+criteria1.setBlock(<minecraft:sticky_piston>)

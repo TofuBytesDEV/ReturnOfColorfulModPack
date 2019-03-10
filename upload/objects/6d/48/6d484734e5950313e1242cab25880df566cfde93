@@ -1,0 +1,13 @@
+{
+    "name": "Some Book Info",
+    "icon": "patchouli:guide_book{\"patchouli:book\":\"patchouli:sky_thermal\"}",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This book will guide you through your adventure in this world. If you $(thing)lose the book/$, don't worry, you can still $(thing)access it from your inventory as the Recipe Book button/$."
+        }
+    ],
+	"priority": true,
+	"sortnum": -1
+}

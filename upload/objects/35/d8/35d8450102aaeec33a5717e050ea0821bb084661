@@ -1,0 +1,11 @@
+
+setIcon(<minecraft:wooden_slab:0>)
+
+setTitle("Convenient Building")
+
+setDescription("Acquire Slabs")
+
+addParent("skythermal:getting_started/getting_wood")
+
+criteria1 = addCriteria("slabs", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:wooden_slab:0>)

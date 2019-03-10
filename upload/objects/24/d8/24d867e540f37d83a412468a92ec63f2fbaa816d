@@ -1,0 +1,12 @@
+setIcon(<minecraft:sapling>)
+
+setTitle("More Saplings")
+
+setDescription("Make a Crook to obtain more saplings")
+
+addParent("skythermal:getting_started/composting")
+
+criteria1 = addCriteria("crook", "minecraft:inventory_changed")
+criteria1.addItem(<exnihilocreatio:crook_wood>)
+
+//setRequirements("all")

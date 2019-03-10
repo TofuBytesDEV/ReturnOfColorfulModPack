@@ -1,0 +1,10 @@
+setIcon(<thermalfoundation:wrench>)
+
+setTitle("Hammer or Wrench?")
+
+setDescription("Obtain a Crescent Hammer")
+
+addParent("skythermal:some_automation/automation_age")
+
+criteria1 = addCriteria("wrench", "minecraft:inventory_changed")
+criteria1.addItem(<thermalfoundation:wrench>)

@@ -1,0 +1,17 @@
+setIcon(<minecraft:water_bucket>)
+
+setTitle("Water is NOT Infinite")
+
+setDescription("Place Leaves in a Crucible to obtain Water")
+
+addParent("skythermal:getting_started/no_spiders_needed")
+
+criteria1 = addCriteria("sapling", "triumph:right_click_block")
+criteria1.setItem(<minecraft:sapling>)
+criteria1.setBlock(<excompressum:wooden_crucible>)
+
+criteria2 = addCriteria("leaves", "triumph:right_click_block")
+criteria2.setItem(<minecraft:leaves>)
+criteria2.setBlock(<excompressum:wooden_crucible>)
+
+setRequirements("any")

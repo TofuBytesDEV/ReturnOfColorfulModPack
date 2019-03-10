@@ -1,0 +1,23 @@
+{
+    "name": "Slimeballs",
+    "icon": "minecraft:slime_ball",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "To finally make our automatic Cobblestone Generator we need Slimeballs ... and and for Slimeballs we need Slimes ... where we could find Slimes in an empty world? Well, it's not that hard .. maybe a little bit. By sieving Soul Sand you should obtain those strange things called $(item)Soul Beads/$. Those were a drop of an extinct mob: the $(thing)Wraith/$."
+        },
+		{
+			"type": "spotlight",
+			"item": "quark:soul_bead",
+			"text": "How can this be used to get Slimes you may ask ... Well, pretty simple. Right-click with this to get Cursed. While the Curse is active mobs will start spawning like crazy and ignore any rule, like light levels or Slime Chunks. So slimes will be able to spawn in your mobs spawning platform."
+		},
+        {
+            "type": "spotlight",
+			"item": "quark:slime_bucket",
+            "text": "Your quest is now to obtain at least a Slimeball BUT you can $(thing)capture a Small Slime with a Bucket and use it to find Slime Chunks/$ to be able to farm Slimeballs easier.<br>$(thing)Slimes spawn between 0 and 40 in Slime Chunks/$."
+        }
+    ],
+	"sortnum": 24,
+	"advancement": "skythermal:getting_started/soul_sand"
+}

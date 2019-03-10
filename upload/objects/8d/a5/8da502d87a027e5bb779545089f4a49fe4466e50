@@ -1,0 +1,23 @@
+{
+    "name": "Some Peaceful Life",
+    "icon": "minecraft:leather",
+    "category": "farming",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Finally we have all the crops, but other than eating those, what can you do with them? I think I should make animals be able to spawn, but sadly this is a luck based task: make a platform away from you main platform with grass blocks and hope animals will spawn, and in some biomes they will never spawn ... Maybe, instead, you're able to $(thing)bait them /$in some way ..."
+        },
+		{
+			"type": "crafting",
+			"recipe": "excompressum:bait_cow",
+			"text": "You can craft Baits. Baits come in all forms for each and every animal. This is the crafting to lure Cows, but there are many more! Check out JEI by writing \"Bait\"."
+		},
+		{
+			"type": "spotlight",
+			"item": "exnihilocreatio:item_material:4",
+			"text": "To lure animals you need Water and Grass (based on the main biome of the animal, e.g. Polar Bears need Snow and not Grass), and you should already have those $(item)Grass Seeds/$ that when used on dirt will transform it in Grass.<br>Finally place the bait on there (you might need more than one Grass Block), get away and wait ..."
+		}
+    ],
+	"sortnum": 1,
+	"advancement": "skythermal:husbandry/farming"
+}

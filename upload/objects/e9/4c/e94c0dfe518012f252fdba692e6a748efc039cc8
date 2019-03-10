@@ -1,0 +1,680 @@
+{
+  "baseModLoader": {
+    "name": "forge-14.23.5.2768",
+    "type": 1,
+    "downloadUrl": "https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.12.2-14.23.5.2768/forge-1.12.2-14.23.5.2768.jar",
+    "filename": "forge-1.12.2-14.23.5.2768.jar",
+    "installMethod": 1,
+    "latest": false,
+    "recommended": true,
+    "approved": false,
+    "dateModified": "2018-10-04T07:48:00Z",
+    "mavenVersionString": "net.minecraftforge:forge:1.12.2-14.23.5.2768",
+    "versionJson": "{\r\n  \"id\": \"forge-14.23.5.2768\",\r\n  \"time\": \"2018-10-04T07:40:14+0000\",\r\n  \"releaseTime\": \"1960-01-01T00:00:00-0700\",\r\n  \"type\": \"release\",\r\n  \"minecraftArguments\": \"--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge\",\r\n  \"minimumLauncherVersion\": 0,\r\n  \"inheritsFrom\": \"1.12.2\",\r\n  \"jar\": \"forge-14.23.5.2768\",\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.12.2-14.23.5.2768\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\"\r\n    },\r\n    {\r\n      \"name\": \"net.minecraft:launchwrapper:1.12\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-all:5.2\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.jline:jline:3.5.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": false\r\n    },\r\n    {\r\n      \"name\": \"net.java.dev.jna:jna:4.4.0\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": false\r\n    },\r\n    {\r\n      \"name\": \"com.typesafe.akka:akka-actor_2.11:2.3.3\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"com.typesafe:config:1.2.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-actors-migration_2.11:1.1.0\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-compiler:2.11.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-library:2.11.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-parser-combinators_2.11:1.0.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-reflect:2.11.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-swing_2.11:1.0.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-xml_2.11:1.0.2\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"lzma:lzma:0.0.1\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:5.0.3\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"java3d:vecmath:1.5.2\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"net.sf.trove4j:trove4j:3.0.3\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.apache.maven:maven-artifact:3.5.3\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    }\r\n  ],\r\n  \"mainClass\": \"net.minecraft.launchwrapper.Launch\"\r\n}",
+    "librariesInstallLocation": "{0}\\libraries\\net\\minecraftforge\\forge\\1.12.2-14.23.5.2768",
+    "minecraftVersion": "1.12.2",
+    "additionalFilesJson": null
+  },
+  "isUnlocked": false,
+  "javaArgsOverride": null,
+  "javaDirOverride": null,
+  "lastPlayed": "0001-01-01T00:00:00",
+  "manifest": {
+    "minecraft": {
+      "version": "1.12.2",
+      "additionalJavaArgs": null,
+      "modLoaders": [
+        {
+          "id": "forge-14.23.5.2768",
+          "primary": true
+        }
+      ],
+      "libraries": null
+    },
+    "manifestType": "minecraftModpack",
+    "manifestVersion": 1,
+    "name": "JASB (Just Another SkyBlock)",
+    "version": "Alpha v1.2.0",
+    "author": "insanegames_",
+    "description": null,
+    "projectID": null,
+    "files": [
+      {
+        "projectID": 238222,
+        "fileID": 2665456,
+        "required": true
+      },
+      {
+        "projectID": 267602,
+        "fileID": 2642375,
+        "required": true
+      },
+      {
+        "projectID": 235279,
+        "fileID": 2619468,
+        "required": true
+      },
+      {
+        "projectID": 223094,
+        "fileID": 2482481,
+        "required": true
+      },
+      {
+        "projectID": 60089,
+        "fileID": 2671937,
+        "required": true
+      },
+      {
+        "projectID": 270789,
+        "fileID": 2623090,
+        "required": true
+      },
+      {
+        "projectID": 69162,
+        "fileID": 2669253,
+        "required": true
+      },
+      {
+        "projectID": 271384,
+        "fileID": 2623091,
+        "required": true
+      },
+      {
+        "projectID": 222880,
+        "fileID": 2669258,
+        "required": true
+      },
+      {
+        "projectID": 242818,
+        "fileID": 2618630,
+        "required": true
+      },
+      {
+        "projectID": 69163,
+        "fileID": 2669257,
+        "required": true
+      },
+      {
+        "projectID": 227443,
+        "fileID": 2669256,
+        "required": true
+      },
+      {
+        "projectID": 277890,
+        "fileID": 2555574,
+        "required": true
+      },
+      {
+        "projectID": 237414,
+        "fileID": 2505261,
+        "required": true
+      },
+      {
+        "projectID": 241967,
+        "fileID": 2620499,
+        "required": true
+      },
+      {
+        "projectID": 257655,
+        "fileID": 2666967,
+        "required": true
+      },
+      {
+        "projectID": 230976,
+        "fileID": 2463272,
+        "required": true
+      },
+      {
+        "projectID": 239197,
+        "fileID": 2662864,
+        "required": true
+      },
+      {
+        "projectID": 253211,
+        "fileID": 2567171,
+        "required": true
+      },
+      {
+        "projectID": 220954,
+        "fileID": 2666266,
+        "required": true
+      },
+      {
+        "projectID": 237701,
+        "fileID": 2560638,
+        "required": true
+      },
+      {
+        "projectID": 253449,
+        "fileID": 2568751,
+        "required": true
+      },
+      {
+        "projectID": 283644,
+        "fileID": 2661111,
+        "required": true
+      },
+      {
+        "projectID": 271740,
+        "fileID": 2661198,
+        "required": true
+      },
+      {
+        "projectID": 250363,
+        "fileID": 2677092,
+        "required": true
+      },
+      {
+        "projectID": 243121,
+        "fileID": 2677108,
+        "required": true
+      },
+      {
+        "projectID": 278385,
+        "fileID": 2482543,
+        "required": true
+      },
+      {
+        "projectID": 306770,
+        "fileID": 2677100,
+        "required": true
+      },
+      {
+        "projectID": 229587,
+        "fileID": 2674005,
+        "required": true
+      },
+      {
+        "projectID": 272515,
+        "fileID": 2658546,
+        "required": true
+      },
+      {
+        "projectID": 274341,
+        "fileID": 2625582,
+        "required": true
+      },
+      {
+        "projectID": 235492,
+        "fileID": 2674976,
+        "required": true
+      },
+      {
+        "projectID": 285690,
+        "fileID": 2671480,
+        "required": true
+      },
+      {
+        "projectID": 268643,
+        "fileID": 2573789,
+        "required": true
+      },
+      {
+        "projectID": 264684,
+        "fileID": 2606175,
+        "required": true
+      },
+      {
+        "projectID": 246761,
+        "fileID": 2557828,
+        "required": true
+      },
+      {
+        "projectID": 223735,
+        "fileID": 2676868,
+        "required": true
+      },
+      {
+        "projectID": 225658,
+        "fileID": 2672446,
+        "required": true
+      },
+      {
+        "projectID": 289466,
+        "fileID": 2661216,
+        "required": true
+      },
+      {
+        "projectID": 278493,
+        "fileID": 2586932,
+        "required": true
+      },
+      {
+        "projectID": 263590,
+        "fileID": 2455920,
+        "required": true
+      },
+      {
+        "projectID": 246996,
+        "fileID": 2678282,
+        "required": true
+      },
+      {
+        "projectID": 237065,
+        "fileID": 2652853,
+        "required": true
+      },
+      {
+        "projectID": 74924,
+        "fileID": 2671124,
+        "required": true
+      },
+      {
+        "projectID": 295608,
+        "fileID": 2658843,
+        "required": true
+      },
+      {
+        "projectID": 222908,
+        "fileID": 2525823,
+        "required": true
+      },
+      {
+        "projectID": 284745,
+        "fileID": 2526155,
+        "required": true
+      },
+      {
+        "projectID": 232131,
+        "fileID": 2624732,
+        "required": true
+      },
+      {
+        "projectID": 284904,
+        "fileID": 2568865,
+        "required": true
+      },
+      {
+        "projectID": 241895,
+        "fileID": 2611981,
+        "required": true
+      },
+      {
+        "projectID": 243478,
+        "fileID": 2589773,
+        "required": true
+      },
+      {
+        "projectID": 250898,
+        "fileID": 2673699,
+        "required": false
+      },
+      {
+        "projectID": 278494,
+        "fileID": 2638380,
+        "required": true
+      },
+      {
+        "projectID": 314031,
+        "fileID": 2672467,
+        "required": true
+      },
+      {
+        "projectID": 248453,
+        "fileID": 2640952,
+        "required": true
+      },
+      {
+        "projectID": 274456,
+        "fileID": 2675138,
+        "required": true
+      },
+      {
+        "projectID": 78778,
+        "fileID": 2524058,
+        "required": true
+      },
+      {
+        "projectID": 307693,
+        "fileID": 2670910,
+        "required": true
+      },
+      {
+        "projectID": 277064,
+        "fileID": 2633662,
+        "required": true
+      },
+      {
+        "projectID": 278882,
+        "fileID": 2633665,
+        "required": true
+      },
+      {
+        "projectID": 224472,
+        "fileID": 2605923,
+        "required": true
+      },
+      {
+        "projectID": 224476,
+        "fileID": 2565122,
+        "required": true
+      }
+    ],
+    "overrides": "overrides"
+  },
+  "fileDate": "2019-02-23T19:02:47.54",
+  "installedModpack": {
+    "addonID": 313842,
+    "gameInstanceID": "bcc90a7b-d460-4061-89a0-cbceae92c94e",
+    "installedFile": {
+      "id": 2679210,
+      "fileName": "JASB Alpha v1.2.0",
+      "fileNameOnDisk": "JASB-Alpha v1.2.0.zip",
+      "fileDate": "2019-02-23T19:02:47.54",
+      "fileLength": 437371,
+      "releaseType": 1,
+      "fileStatus": 1,
+      "downloadUrl": "https://files.forgecdn.net/files/2679/210/JASB-Alpha v1.2.0.zip",
+      "isAlternate": false,
+      "alternateFileId": 0,
+      "dependencies": [],
+      "isAvailable": true,
+      "modules": [
+        {
+          "folderName": "manifest.json",
+          "fimgerprint": 2713651951
+        }
+      ],
+      "packageFingerprint": 2334961657,
+      "gameVersion": [
+        "1.12",
+        "1.12.2",
+        "1.12.1"
+      ],
+      "installMetadata": null
+    },
+    "dateInstalled": "2019-03-10T08:36:29.4602661Z",
+    "dateUpdated": "2019-03-10T08:36:29.9549715Z",
+    "dateLastUpdateAttempted": "2019-03-10T08:36:29.9549715Z",
+    "status": 4,
+    "preferenceAutoInstallUpdates": false,
+    "preferenceAlternateFile": false,
+    "preferenceIsIgnored": false,
+    "isModified": false,
+    "isWorkingCopy": false,
+    "isFuzzyMatch": false,
+    "preferenceReleaseType": null,
+    "manifestName": null,
+    "installedTargets": []
+  },
+  "projectID": 313842,
+  "fileID": 2679210,
+  "customAuthor": null,
+  "modpackOverrides": [
+    "config\\blockcraftery.cfg",
+    "config\\BNBGamingCore.cfg",
+    "config\\carryon.cfg",
+    "config\\chesttransporter.cfg",
+    "config\\chisel.cfg",
+    "config\\codechickenlib.cfg",
+    "config\\ctm.cfg",
+    "config\\defaultoptions.cfg",
+    "config\\dirt2path.cfg",
+    "config\\excompressum.cfg",
+    "config\\fastleafdecay.cfg",
+    "config\\foamfix.cfg",
+    "config\\forge.cfg",
+    "config\\forgeChunkLoading.cfg",
+    "config\\IguanaTweaksReborn.cfg",
+    "config\\InvTweaks.cfg",
+    "config\\InvTweaksRules.txt",
+    "config\\InvTweaksTree.txt",
+    "config\\JASBTweaks.cfg",
+    "config\\jepb.cfg",
+    "config\\kleeslabs.cfg",
+    "config\\magicfeather.cfg",
+    "config\\materialchanger.cfg",
+    "config\\MoreOverlays.cfg",
+    "config\\MouseTweaks.cfg",
+    "config\\oreexcavation.cfg",
+    "config\\oreexcavation_groups.json",
+    "config\\oreexcavation_overrides.json",
+    "config\\oreexcavation_shapes.json",
+    "config\\patchouli.cfg",
+    "config\\Pendant of Life.cfg",
+    "config\\placebo.cfg",
+    "config\\playerschoice.json",
+    "config\\ProgressiveBosses.cfg",
+    "config\\quark.cfg",
+    "config\\simplecorn.cfg",
+    "config\\splash.properties",
+    "config\\toastcontrol.cfg",
+    "config\\ultimatecobblegen.cfg",
+    "config\\unlimitedchiselworks.cfg",
+    "config\\voidislandcontrol.cfg",
+    "config\\watercontrolextreme.cfg",
+    "config\\acronym\\material_system.cfg",
+    "config\\acronym\\base\\General.cfg",
+    "config\\acronym\\contenttweaker\\General.cfg",
+    "config\\acronym\\saved\\material_parts_contenttweaker-original.json",
+    "config\\acronym\\saved\\material_parts_contenttweaker.json",
+    "config\\acronym\\saved\\saved_sub_blocks_contenttweaker-original.json",
+    "config\\acronym\\saved\\saved_sub_blocks_contenttweaker.json",
+    "config\\aroma1997\\aroma1997core.cfg",
+    "config\\aroma1997\\aromabackup.cfg",
+    "config\\aroma1997\\aromabackuprecovery.cfg",
+    "config\\betteradvancements\\betteradvancements.cfg",
+    "config\\codechicken\\supporters.json",
+    "config\\codechicken\\supporters.marker",
+    "config\\cofh\\core\\client.cfg",
+    "config\\cofh\\core\\common.cfg",
+    "config\\cofh\\core\\friends.cfg",
+    "config\\cofh\\thermaldynamics\\client.cfg",
+    "config\\cofh\\thermaldynamics\\common.cfg",
+    "config\\cofh\\thermaldynamics\\cover_blacklist.json",
+    "config\\cofh\\thermalexpansion\\client.cfg",
+    "config\\cofh\\thermalexpansion\\common.cfg",
+    "config\\cofh\\thermalexpansion\\florbs.cfg",
+    "config\\cofh\\thermalexpansion\\morbs.cfg",
+    "config\\cofh\\thermalfoundation\\client.cfg",
+    "config\\cofh\\thermalfoundation\\common.cfg",
+    "config\\cofh\\thermalfoundation\\lexicon-whitelist.cfg",
+    "config\\cofh\\world\\00_minecraft.json",
+    "config\\cofh\\world\\01_thermalfoundation_ores.json",
+    "config\\cofh\\world\\02_thermalfoundation_oil.json",
+    "config\\cofh\\world\\03_thermalfoundation_clathrates.json",
+    "config\\cofh\\world\\config.cfg",
+    "config\\defaultoptions\\keybindings.txt",
+    "config\\defaultoptions\\options.txt",
+    "config\\ExCompressum\\ChickenStickRegistry.json",
+    "config\\ExCompressum\\CompressedHammer.json",
+    "config\\ExCompressum\\HeavySieve.json",
+    "config\\ExCompressum\\WoodenCrucible.json",
+    "config\\exnihilocreatio\\BarrelLiquidBlacklistRegistry.json",
+    "config\\exnihilocreatio\\CompostRegistry.json",
+    "config\\exnihilocreatio\\CrookRegistry.json",
+    "config\\exnihilocreatio\\CrucibleRegistryStone.json",
+    "config\\exnihilocreatio\\CrucibleRegistryWood.json",
+    "config\\exnihilocreatio\\ExNihiloCreatio.cfg",
+    "config\\exnihilocreatio\\FluidBlockTransformerRegistry.json",
+    "config\\exnihilocreatio\\FluidItemFluidRegistry.json",
+    "config\\exnihilocreatio\\FluidOnTopRegistry.json",
+    "config\\exnihilocreatio\\FluidTransformRegistry.json",
+    "config\\exnihilocreatio\\HammerRegistry.json",
+    "config\\exnihilocreatio\\HeatRegistry.json",
+    "config\\exnihilocreatio\\MilkEntityRegistry.json",
+    "config\\exnihilocreatio\\OreRegistry.json",
+    "config\\exnihilocreatio\\SieveRegistry.json",
+    "config\\exnihilocreatio\\old\\SieveRegistry.json",
+    "config\\hungeroverhaul\\blankslate.cfg",
+    "config\\hungeroverhaul\\default.cfg",
+    "config\\hungeroverhaul\\HungerOverhaul.cfg",
+    "config\\jei\\bookmarks.ini",
+    "config\\jei\\itemBlacklist.cfg",
+    "config\\jei\\jei.cfg",
+    "config\\jei\\searchColors.cfg",
+    "config\\jei\\worldSettings.cfg",
+    "config\\nutrition\\nutrition.cfg",
+    "config\\nutrition\\effects\\example.json",
+    "config\\nutrition\\effects\\malnourished.json",
+    "config\\nutrition\\effects\\mining_fatigue.json",
+    "config\\nutrition\\effects\\nourished.json",
+    "config\\nutrition\\effects\\resistance.json",
+    "config\\nutrition\\effects\\strength.json",
+    "config\\nutrition\\effects\\weakness.json",
+    "config\\nutrition\\nutrients\\dairy.json",
+    "config\\nutrition\\nutrients\\example.json",
+    "config\\nutrition\\nutrients\\fruit.json",
+    "config\\nutrition\\nutrients\\grain.json",
+    "config\\nutrition\\nutrients\\protein.json",
+    "config\\nutrition\\nutrients\\vegetable.json",
+    "config\\triumph\\Triumph.txt",
+    "config\\triumph\\script\\skythermal\\building\\chisel.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\cobblestone.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\composting.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\diamonds.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\even_more_wood.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\fake_dirt.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\furnace.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\getting_wood.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\gravel_sand_dust.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\hunger.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\iron.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\lava.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\less_grind.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\mob_loot.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\more_saplings.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\more_sieving.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\more_wood.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\no_spiders_needed.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\potions.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\root.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\sieving.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\slabs.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\slimeball.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\soul_sand.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\stone_axe.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\water.txt",
+    "config\\triumph\\script\\skythermal\\getting_started\\wooden_axe.txt",
+    "config\\triumph\\script\\skythermal\\husbandry\\animals.txt",
+    "config\\triumph\\script\\skythermal\\husbandry\\farming.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\automatic_cobblestone.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\automation_age.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\cache.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\cell.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\energy_not_needed.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\induction_smelter.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\magmatic_dynamo.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\need_energy.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\pulverizer.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\redstone_furnace.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\sawmill.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\tank.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\upgrade.txt",
+    "config\\triumph\\script\\skythermal\\some_automation\\wrench.txt",
+    "config\\voidislandcontrolstructures\\skyblock.nbt",
+    "config\\voidislandcontrolstructures\\skyblock_old.nbt",
+    "config\\waila\\waila.cfg",
+    "config\\waila\\theme\\dark.json",
+    "config\\waila\\theme\\vanilla.json",
+    "mods\\Nutrition-1.12.2-4.0.0.jar",
+    "patchouli_books\\sky_thermal\\book.json",
+    "patchouli_books\\sky_thermal\\en_us\\categories\\building.json",
+    "patchouli_books\\sky_thermal\\en_us\\categories\\farming.json",
+    "patchouli_books\\sky_thermal\\en_us\\categories\\getting_started.json",
+    "patchouli_books\\sky_thermal\\en_us\\categories\\some_automation.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\building\\blockcraftery.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\building\\chisel.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\building\\quark_building.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\building\\quark_decoration.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\farming\\animals.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\farming\\farming.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\book_info.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\cobblestone.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\composting.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\diamonds.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\even_more_wood.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\furnace.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\getting_wood.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\gravel_sand_dust.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\hunger.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\iron.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\lava.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\less_grind.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\mob_loot.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\more_saplings.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\more_sieving.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\more_wood.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\moving_around.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\multiplayer.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\need_slimes.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\potions.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\sieving.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\slabs.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\soul_sand.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\stone_axe.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\water_crucible.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\wooden_axe.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\getting_started\\worms_and_strings.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\alloying.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\automatic_cobblestone.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\cache.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\cell.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\energy_not_needed.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\machine_info.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\magmatic_dynamo.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\need_energy.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\pulverizer.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\redstone_furnace.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\sawmill.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\tank.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\upgrade.json",
+    "patchouli_books\\sky_thermal\\en_us\\entries\\some_automation\\wrench.json",
+    "resources\\pack.mcmeta",
+    "resources\\contenttweaker\\blockstates\\fake_dirt.json",
+    "resources\\contenttweaker\\blockstates\\fake_grass.json",
+    "resources\\contenttweaker\\lang\\en_us.lang",
+    "resources\\contenttweaker\\models\\block\\fake_grass.json",
+    "resources\\contenttweaker\\models\\block\\fake_grass_normal.json",
+    "resources\\contenttweaker\\textures\\blocks\\fake_grass_side.png",
+    "resources\\contenttweaker\\textures\\blocks\\fake_grass_top.png",
+    "screenshots\\panoramas\\main_menu\\panorama_0.png",
+    "screenshots\\panoramas\\main_menu\\panorama_1.png",
+    "screenshots\\panoramas\\main_menu\\panorama_2.png",
+    "screenshots\\panoramas\\main_menu\\panorama_3.png",
+    "screenshots\\panoramas\\main_menu\\panorama_4.png",
+    "screenshots\\panoramas\\main_menu\\panorama_5.png",
+    "scripts\\blockcraftery.zs",
+    "scripts\\chesttransporter.zs",
+    "scripts\\contenttweaker.zs",
+    "scripts\\ex.zs",
+    "scripts\\quark.zs",
+    "scripts\\recipes.zs",
+    "scripts\\thermal.zs",
+    "scripts\\ultimateskyblockresourcegenerator.zs",
+    "scripts\\vanilla.zs"
+  ],
+  "isMemoryOverride": false,
+  "allocatedMemory": 0,
+  "guid": "bcc90a7b-d460-4061-89a0-cbceae92c94e",
+  "gameTypeID": 432,
+  "installPath": "C:\\Users\\koami\\Documents\\Curse\\Minecraft\\Instances\\JASB (Just Another SkyBlock)\\",
+  "name": "JASB (Just Another SkyBlock)",
+  "cachedScans": null,
+  "isValid": true,
+  "lastPreviousMatchUpdate": "0001-01-01T00:00:00",
+  "isEnabled": true,
+  "isPinned": false,
+  "gameVersion": "1.12.2",
+  "preferenceAlternateFile": false,
+  "preferenceAutoInstallUpdates": false,
+  "preferenceQuickDeleteLibraries": true,
+  "preferenceDeleteSavedVariables": true,
+  "preferenceProcessFileCommands": true,
+  "preferenceReleaseType": 1,
+  "syncProfile": {
+    "PreferenceEnabled": false,
+    "PreferenceAutoSync": true,
+    "PreferenceAutoDelete": false,
+    "PreferenceBackupSavedVariables": false,
+    "GameInstanceGuid": "00000000-0000-0000-0000-000000000000",
+    "SyncProfileID": 0,
+    "SavedVariablesProfile": null,
+    "LastSyncDate": "0001-01-01T00:00:00"
+  },
+  "preferenceShowAddOnInfo": true,
+  "installDate": "2019-03-10T08:36:26.7811359Z",
+  "installedAddons": null,
+  "isMigrated": false,
+  "preferenceUploadProfile": false
+}

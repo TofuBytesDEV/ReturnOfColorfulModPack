@@ -1,0 +1,14 @@
+{
+    "name": "More Wood",
+    "icon": "minecraft:log",
+    "category": "getting_started",
+    "pages": [
+		{
+			"type": "crafting",
+			"recipe": "jasbtweaks:fertilized_dirt",
+            "text": "$(thing)Saplings need light to grow/$, and for now you only have a Torch. You should use the Bonemeal you got \"from Gods\" to make $(item)Rich Dirt/$ that makes $(thing)Saplings grow faster/$ but has $(thing)25% chance to decay and return Dirt/$."
+		}
+    ],
+	"sortnum": 4,
+	"advancement": "skythermal:getting_started/getting_wood"
+}

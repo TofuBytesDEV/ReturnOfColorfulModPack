@@ -1,0 +1,13 @@
+{
+    "name": "Multiplayer",
+    "icon": "minecraft:skull:3",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "By default every player receives a personal island. If you want to play in Co-op just use the command $(thing)/island invite $(italic)player_name/$ to invite a player and $(thing)/island join/$ to accept the invite"
+        }
+    ],
+	"priority": true,
+	"sortnum": 0
+}

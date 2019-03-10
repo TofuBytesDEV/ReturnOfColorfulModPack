@@ -1,0 +1,10 @@
+setIcon(<minecraft:lava_bucket>)
+
+setTitle("Lava")
+
+setDescription("Obtain a Lava Bucket")
+
+addParent("skythermal:getting_started/iron")
+
+criteria1 = addCriteria("lava", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:lava_bucket>)

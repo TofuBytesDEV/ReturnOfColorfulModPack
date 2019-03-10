@@ -1,0 +1,14 @@
+{
+    "name": "Even More Wood",
+    "icon": "jasbtweaks:fertilized_dirt",
+    "category": "getting_started",
+    "pages": [
+		{
+			"type": "crafting",
+			"recipe": "jasbtweaks:rich_dirt",
+			"text": "If you have access to a few Bones and Seeds, you should upgrade $(item)Rich Dirt/$ to $(item)Fertilized Dirt/$. Works the same as Rich Dirt but the $(thing)chance to decay is reduced to 10%/$ and will $(thing)decay to Rich Dirt/$ instead of Dirt."
+		}
+    ],
+	"sortnum": 14,
+	"advancement": "skythermal:getting_started/sieving"
+}

@@ -1,0 +1,338 @@
+# Configuration file
+
+~CONFIG_VERSION: 0.1.0
+
+world-1408655872 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1408658752 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1603178474 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=chi
+    B:overlayEnabled=true
+}
+
+
+world-1735736673 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1793304509 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1925058739 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1934016647 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-1986975434 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=dynam
+    B:overlayEnabled=true
+}
+
+
+world-2011325416 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-415822532 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-441414833 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-751342816 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=@bau
+    B:overlayEnabled=true
+}
+
+
+world-78688046 {
+    # Show the list of bookmarks next to open GUIs.
+    B:bookmarkOverlayEnabled=true
+
+    # Give items instead of showing the recipe.
+    B:cheatItemsEnabled=true
+
+    # Hide and unhide ingredients by clicking them in the list.
+    B:editEnabled=false
+    S:filterText=upgr
+
+    # Show the list of ingredients next to open GUIs.
+    B:overlayEnabled=true
+}
+
+
+world-852074640 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world-874579821 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=cobble
+    B:overlayEnabled=true
+}
+
+
+world110251488 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=end
+    B:overlayEnabled=true
+}
+
+
+world1322669930 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world1443687921 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world1544803905 {
+    S:filterText=
+}
+
+
+world1741297024 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world1799842472 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world1804652641 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world1937355716 {
+    B:bookmarkOverlayEnabled=false
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=nethe
+    B:overlayEnabled=true
+}
+
+
+world1973779886 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=gold
+    B:overlayEnabled=true
+}
+
+
+world2018356 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world237363008 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world2400 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world2582783 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=jus
+    B:overlayEnabled=true
+}
+
+
+world3089570 {
+    B:cheatItemsEnabled=true
+    B:editEnabled=false
+    S:filterText=dirt
+    B:overlayEnabled=true
+}
+
+
+world3421974 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world409382457 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world491045427 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world50 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world64863939 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world74109088 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world772665266 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world78482 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world82555838 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world871713348 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world96882 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+
+world981005509 {
+    B:cheatItemsEnabled=false
+    B:editEnabled=false
+    S:filterText=
+    B:overlayEnabled=true
+}
+
+

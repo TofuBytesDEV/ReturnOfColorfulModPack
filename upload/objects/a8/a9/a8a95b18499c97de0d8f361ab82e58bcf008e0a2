@@ -1,0 +1,19 @@
+{
+	"name": "dairy",
+	"icon": "minecraft:milk_bucket",
+	"color": "a0d4f7",
+	"enabled": true,
+	"food": {
+		"oredict": [
+			"foodButter",
+			"foodCheese",
+			"foodChocolatebar",
+			"listAllmilk"
+		],
+		"items": [
+			"minecraft:cake",
+			"minecraft:golden_apple:1",
+			"minecraft:milk_bucket"
+		]
+	}
+}

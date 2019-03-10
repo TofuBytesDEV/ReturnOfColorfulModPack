@@ -1,0 +1,11 @@
+setIcon(<jasbtweaks:fertilized_dirt>)
+
+setTitle("Even More Wood")
+
+setDescription("Plant a Sapling on a Fertilized Dirt")
+
+addParent("skythermal:getting_started/sieving")
+
+criteria1 = addCriteria("fertilized_dirt", "triumph:right_click_block")
+criteria1.setItem(<minecraft:sapling>)
+criteria1.setBlock(<jasbtweaks:fertilized_dirt>)

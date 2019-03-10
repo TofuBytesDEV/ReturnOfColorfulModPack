@@ -1,0 +1,25 @@
+setIcon(<exnihilocreatio:block_dust>)
+
+setTitle("More Sieving")
+
+setDescription("Obtain Cocoa Beans, Ancient Spores, Prismarine Shard, Glowstone Dust, Blaze Powder, Redstone")
+
+addParent("skythermal:getting_started/diamonds")
+
+criteria1 = addCriteria("cocoa", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:dye:3>)
+
+criteria2 = addCriteria("ancient_spores", "minecraft:inventory_changed")
+criteria2.addItem(<exnihilocreatio:item_material:3>)
+
+criteria3 = addCriteria("prismarine", "minecraft:inventory_changed")
+criteria3.addItem(<minecraft:prismarine_shard>)
+
+criteria4 = addCriteria("glowstone", "minecraft:inventory_changed")
+criteria4.addItem(<minecraft:glowstone_dust>)
+
+criteria5 = addCriteria("blaze_powder", "minecraft:inventory_changed")
+criteria5.addItem(<minecraft:blaze_powder>)
+
+criteria6 = addCriteria("redstone", "minecraft:inventory_changed")
+criteria6.addItem(<minecraft:redstone>)

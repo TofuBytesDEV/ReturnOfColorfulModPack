@@ -1,0 +1,18 @@
+{
+    "name": "Alloying",
+    "icon": "thermalexpansion:machine:3",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It's time to merge some materials to make new ones. The $(item)Induction Smelter/$ will make you able to create some new materials like Bronze or Invar that will be used for some ne machines.<br>You can use it even to smelt tools, weapons and armors to get back some ingots from them."
+        },
+		{
+			"type": "crafting",
+			"recipe": "crafttweaker:induction_smelter",
+			"text": "$(item)Bronze/$ can be made by smelting together $(thing)3 Copper and 1 Tin/$.<br>$(item)Invar/$ needs $(thing)2 Iron and 1 Nickel/$.<br>$(item)Electrum/$ needs $(thing)a Gold and a Silver/$."
+		}
+    ],
+	"sortnum": 105,
+	"advancement": "skythermal:some_automation/pulverizer"
+}

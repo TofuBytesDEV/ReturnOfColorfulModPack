@@ -1,0 +1,16 @@
+{
+    "name": "Getting Wood",
+    "icon": "minecraft:planks",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "At the start wood is $(thing)your best friend/$ since there's no way to make cobblestone or other materials, so get some wood and use it to $(thing)expand sightly your island/$.$(br)Remember to get saplings too, they are your $(thing)best friend for now/$.$(br)I highly recommend expanding around the tree as soon as possible to prevent precious saplings loss"
+        },
+		{
+			"type": "text",
+			"text": "Obtaining some Planks will $(bold)reward you with 2 saplings/$ in case you're really unlucky with drops ;)"
+		}
+    ],
+	"sortnum": 2
+}

@@ -1,0 +1,10 @@
+setIcon(<thermalexpansion:tank:0>)
+
+setTitle("Storing Liquids")
+
+setDescription("Obtain a Portable Tank")
+
+addParent("skythermal:some_automation/energy_not_needed")
+
+criteria1 = addCriteria("tank", "minecraft:inventory_changed")
+criteria1.addItem(<thermalexpansion:tank:0>)

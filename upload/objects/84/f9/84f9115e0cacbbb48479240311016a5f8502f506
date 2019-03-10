@@ -1,0 +1,22 @@
+{
+    "name": "Redstone & Glowstone?",
+    "icon": "exnihilocreatio:block_dust",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Since (spoiler) the Nether is empty ... void ... $(italic)nada/$.<br>There's no way to go there and obtain $(item)Netherrack/$ and $(item)Soul Sand/$ (or even Quartz, or Glowstone), even $(item)End Stone/$ ... who would even fight the Ender Dragon right now?. Instead you need to $(item)create them/$.<br>First off you need a $(item)Stone Barrel/$ that other than doing the same as the Wooden counterpart $(thing)can hold Lava/$. "
+        },
+		{
+			"type": "crafting",
+			"recipe": "exnihilocreatio:block_barrel1",
+			"text": "Put Lava in a Stone Barrel, if you use a $(item)Redstone Dust/$ into the Lava you'll get $(item)Netherrack/$, with $(item)Glowstone/$ you get $(item)End Stone/$, and by putting Water on top of it you'll get $(item)Obsidian/$ without the need of mining it."
+		},
+        {
+            "type": "text",
+            "text": "Now with an $(item)Hammer/$ you can $(thing)Crush Netherrack and Endstone to make them Sievable/$.<br>Some of them might need different Meshes to check them out by Pressing U on the Block.<br>You'll be able to obtain Cocoa Beans, Ancient Spores, Prismarine Shard, Glowstone Dust, Blaze Powder, Redstone and Chorus Flowers."
+        }
+    ],
+	"sortnum": 21,
+	"advancement": "skythermal:getting_started/diamonds"
+}

@@ -1,0 +1,10 @@
+setIcon(<thermalexpansion:machine:2>)
+
+setTitle("Even Much More Wood!")
+
+setDescription("Obtain an Saw Mill")
+
+addParent("skythermal:some_automation/induction_smelter")
+
+criteria1 = addCriteria("sawmill", "minecraft:inventory_changed")
+criteria1.addItem(<thermalexpansion:machine:2>)

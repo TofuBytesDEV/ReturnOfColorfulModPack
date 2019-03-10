@@ -1,0 +1,18 @@
+{
+    "name": "Even Much More Wood",
+    "icon": "thermalexpansion:machine:2",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You still think you don't have enough wood? Well here's the Sawmill.<br>Other than begin able to cut down Logs into more wood it can even recycle some Wooden Blocks, such as Fences, Stairs, etc, recycle Leather things and create $(item)Pulped Biomass/$."
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermalexpansion:machine_2",
+			"text": ""
+		}
+    ],
+	"sortnum": 108,
+	"advancement": "skythermal:some_automation/induction_smelter"
+}

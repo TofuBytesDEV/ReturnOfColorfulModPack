@@ -1,0 +1,13 @@
+
+setIcon(<minecraft:planks>)
+
+setTitle("Getting Wood")
+
+setDescription("Acquire some Planks")
+
+addParent("skythermal:getting_started/root")
+
+criteria1 = addCriteria("planks", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:planks>)
+
+addRewardItem(<minecraft:sapling, meta:0, count:2>)

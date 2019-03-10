@@ -1,0 +1,13 @@
+{
+    "name": "Slabs",
+    "icon": "minecraft:wooden_slab",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Since you're pretty low on materials right now (and Torches) I recommend using slabs to build your platform and put them in the bottom part of the blocks so mobs don't spawn on them.<br>$(thing)You can even break a Double Slab by crouching to break only the top or bottom slab instead of the whole block/$"
+        }
+    ],
+	"sortnum": 3,
+	"advancement": "skythermal:getting_started/getting_wood"
+}

@@ -1,0 +1,10 @@
+setIcon(<thermalfoundation:upgrade:1>)
+
+setTitle("Upgrade Complete!")
+
+setDescription("Obtain a Reinforced Upgrade Kit")
+
+addParent("skythermal:some_automation/magmatic_dynamo")
+
+criteria1 = addCriteria("hardened_upgrade", "minecraft:inventory_changed")
+criteria1.addItem(<thermalfoundation:upgrade:1>)

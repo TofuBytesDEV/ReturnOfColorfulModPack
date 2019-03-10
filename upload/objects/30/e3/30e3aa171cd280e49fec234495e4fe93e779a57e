@@ -1,0 +1,10 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"witchwater",Amount:1000}>)
+
+setTitle("Witch Water and Soul Sand")
+
+setDescription("Obtain Quartz")
+
+addParent("skythermal:getting_started/more_sieving")
+
+criteria1 = addCriteria("quartz", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:quartz>)

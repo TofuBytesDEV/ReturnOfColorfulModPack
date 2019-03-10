@@ -1,0 +1,10 @@
+setIcon(<thermalexpansion:machine:0>)
+
+setTitle("Furnace by Energy")
+
+setDescription("Obtain a Redstone Furnace")
+
+addParent("skythermal:some_automation/need_energy")
+
+criteria1 = addCriteria("redstone_furnace", "minecraft:inventory_changed")
+criteria1.addItem(<thermalexpansion:machine:0>)

@@ -1,0 +1,23 @@
+{
+    "name": "But Stairs and Slabs?",
+    "icon": "blockcraftery:editable_stairs",
+    "category": "building",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Yeah, chiseling is cool ... but you still miss Stairs and Slabs from those blocks. Well BlockCraftery is for you.<br>It adds frames of Stairs, Slabs, Walls and Fences so you can add a block to them and make them of any kind."
+        },
+        {
+            "type": "crafting",
+			"recipe": "crafttweaker:editable_fence",
+            "recipe2": "crafttweaker:editable_wall"
+        },
+        {
+            "type": "crafting",
+			"recipe": "crafttweaker:editable_stairs",
+            "recipe2": "crafttweaker:editable_slab"
+        }
+    ],
+	"sortnum": 1,
+	"advancement": "skythermal:building/chisel"
+}

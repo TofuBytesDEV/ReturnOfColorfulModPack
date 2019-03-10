@@ -1,0 +1,33 @@
+import mods.thermalexpansion.Pulverizer;
+import mods.thermalexpansion.Enchanter;
+
+Pulverizer.addRecipe(<exnihilocreatio:block_dust>, <minecraft:sand>, 4000);
+Pulverizer.addRecipe(<minecraft:sand:1>, <exnihilocreatio:block_granite_crushed>, 4000);
+
+Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:11}]}), <minecraft:book>, <exnihilocreatio:block_netherrack_crushed>, 12000, 500, false);
+Enchanter.addRecipe(<minecraft:enchanted_book>.withTag({StoredEnchantments:[{id:12}]}), <minecraft:book>, <exnihilocreatio:block_endstone_crushed>, 24000, 3000, false);
+
+recipes.addShaped("induction_smelter", <thermalexpansion:machine:3>, [[null, <ore:gearTin>, null],[<ore:sand>, <thermalexpansion:frame>, <ore:sand>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
+
+//Augments and machines disabled
+recipes.remove(<thermalexpansion:augment:416>);
+recipes.remove(<thermalexpansion:augment:352>);
+recipes.remove(<thermalexpansion:augment:336>);
+recipes.remove(<thermalexpansion:augment:496>);
+recipes.remove(<thermalexpansion:augment:497>);
+recipes.remove(<thermalexpansion:machine:15>);
+recipes.remove(<thermalexpansion:machine:3>);
+recipes.remove(<thermalexpansion:augment:304>);
+recipes.remove(<thermalfoundation:material:100>);
+recipes.remove(<thermalfoundation:material:99>);
+recipes.remove(<thermalfoundation:material:98>);
+recipes.remove(<thermalfoundation:material:97>);
+recipes.remove(<thermalfoundation:storage_resource>);
+recipes.remove(<base:wrench>);
+
+//Stone shears
+recipes.addShapedMirrored(<thermalfoundation:tool.shears_stone>, [[null, <ore:materialStoneTool>],[<ore:materialStoneTool>, null]]);
+
+//Dynamo
+recipes.remove(<thermalexpansion:dynamo:1>);
+recipes.addShaped("magmatic_dynamo", <thermalexpansion:dynamo:1>, [[null, <thermalfoundation:material:514>, null],[<ore:ingotIron>, <ore:gearInvar>, <ore:ingotIron>], [<ore:ingotInvar>, <thermalexpansion:dynamo>, <ore:ingotInvar>]]);

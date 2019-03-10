@@ -1,0 +1,22 @@
+{
+    "name": "Water is NOT Infinite",
+    "icon": "minecraft:water_bucket",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can obtain Water using items that contain water in a Crucible. Saplings are a good start, but Leaves are much more efficient so it's adviced to make some Wooden Shears and obtain some.<br>Forgot to mention that Water is finite in this strange world so if you need more you'll have to make more, $(thing)you can't just make an \"infinite water source\"/$"
+        },
+		{
+			"type": "crafting",
+			"recipe": "tp:wooden_shears",
+			"recipe2": "excompressum:wooden_crucible_oak"
+		},
+        {
+            "type": "text",
+            "text": "$(thing)Leaves are even better than Saplings to make Dirt/$!$(br2)PS You may have already have noticed, but you  can obtain Water even by putting Barrels out in the rain."
+        }
+    ],
+	"sortnum": 10,
+	"advancement": "skythermal:getting_started/no_spiders_needed"
+}

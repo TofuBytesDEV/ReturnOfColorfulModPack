@@ -1,0 +1,8 @@
+{
+	"name": "Just Another SkyBlock",
+	"landing_text": "Welcome to JASB (Just Another SkyBlock), a modpack aimed to make ... ehm ... unfamiliar players approach their first SkyBlock Modpack. It's good even for players that want to play a spiced up SkyBlock",
+	"version": 3,
+	"advancement_namespaces": ["skythermal"],
+	"book_texture": "patchouli:textures/gui/book_green.png",
+	"model": "patchouli:book_green"
+}

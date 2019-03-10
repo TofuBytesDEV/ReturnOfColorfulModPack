@@ -1,0 +1,22 @@
+//Charcoal = 1 Torch
+recipes.remove(<minecraft:torch>);
+recipes.addShapedMirrored(<minecraft:torch>, [[<minecraft:coal:1>],[<minecraft:stick>]]);
+recipes.addShapedMirrored(<minecraft:torch> * 4, [[<minecraft:coal>],[<minecraft:stick>]]);
+recipes.addShapedMirrored(<minecraft:torch> * 4, [[<thermalfoundation:material:833>],[<minecraft:stick>]]);
+recipes.addShapedMirrored(<minecraft:torch> * 4, [[<thermalfoundation:material:832>],[<minecraft:stick>]]);
+
+//Cheaper Furnace
+recipes.remove(<minecraft:furnace>);
+recipes.addShaped("furnace", <minecraft:furnace>, [[<minecraft:stone_slab:3>, <minecraft:stone_slab:3>, <minecraft:stone_slab:3>],[<minecraft:stone_slab:3>, null, <minecraft:stone_slab:3>], [<minecraft:stone_slab:3>, <minecraft:stone_slab:3>, <minecraft:stone_slab:3>]]);
+
+//2 Gravel to Flint recipe
+recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>,<minecraft:gravel>]);
+
+//Easier Bucket
+recipes.remove(<minecraft:bucket>);
+recipes.addShaped(<minecraft:bucket>, [[<minecraft:iron_nugget>, null, <minecraft:iron_nugget>], [null, <minecraft:iron_nugget>, null]]);
+
+<ore:listAllseed>.add(<minecraft:wheat_seeds>);
+<ore:listAllseed>.add(<minecraft:pumpkin_seeds>);
+<ore:listAllseed>.add(<minecraft:melon_seeds>);
+<ore:listAllseed>.add(<minecraft:beetroot_seeds>);

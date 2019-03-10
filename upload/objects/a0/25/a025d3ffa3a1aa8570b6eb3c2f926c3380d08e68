@@ -1,0 +1,16 @@
+setIcon(<minecraft:rotten_flesh>)
+
+setTitle("Pesky Monsters")
+
+setDescription("Obtain some Rotten Flesh, Gunpowder and Bones")
+
+addParent("skythermal:getting_started/composting")
+
+criteria1 = addCriteria("flesh", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:rotten_flesh>)
+
+criteria2 = addCriteria("gunpowder", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:gunpowder>)
+
+criteria3 = addCriteria("bone", "minecraft:inventory_changed")
+criteria3.addItem(<minecraft:bone>)

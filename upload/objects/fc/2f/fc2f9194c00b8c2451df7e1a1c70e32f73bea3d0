@@ -1,0 +1,18 @@
+{
+    "name": "Automatic Cobblestone",
+    "icon": "quark:iron_rod",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "And now it's time to automate that boring Cobblestone Generator. First off make a standard Sticky Piston, you should already have obtained a slimeball. Then you'll need an $(item)Iron Rod/$. For some obscure reasons, despide begin called $(bold)Iron/$ Rod, it needs more Platinum than Iron to be made. After making one of this, just attack it to a Sticky Piston."
+        },
+		{
+			"type": "crafting",
+			"recipe": "crafttweaker:iron_rod",
+			"text": "Everytime the Sticky Piston is activated, the Iron Rod will break the block in front of it. You can make a simple vanilla clock and attach it to the Piston to make it automatic! For the collection part, just put an $(item)Hopper/$ below the Cobblestone."
+		}
+    ],
+	"sortnum": 2,
+	"advancement": "skythermal:some_automation/energy_not_needed"
+}

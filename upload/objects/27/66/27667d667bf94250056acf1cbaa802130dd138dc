@@ -1,0 +1,17 @@
+{
+    "name": "Some Infos on Machines",
+    "icon": "minecraft:written_book",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Let's explain some of the Interface components most Thermal's machines have.<br>The First Tab on left side called \"Energy\" will show you how much energy the machine is consuming and the maximum energy it can consume.<br>The Second Tab called \"Informations\" let you know what the machine does."
+        },
+        {
+            "type": "text",
+            "text": "On the right-side instead there's \"Augmentation\", used to apply Augmentations to the machines when you'll be able to.<br>Next tab is called \"Redstone Control\" which let you turn the Machine on / off via Redstone.<br>The last tab called \"Configuration\" is used to configurate the input and output sides where the things get in or go out."
+        }
+    ],
+	"sortnum": 103,
+	"advancement": "skythermal:some_automation/redstone_furnace"
+}

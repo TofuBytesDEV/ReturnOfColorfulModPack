@@ -1,0 +1,6 @@
+//Platimun Rod
+recipes.remove(<quark:iron_rod>);
+recipes.addShaped("iron_rod", <quark:iron_rod>, [[<ore:ingotPlatinum>],[<ore:ingotPlatinum>], [<ore:ingotIron>]]);
+
+//Craftable Smoker
+recipes.addShaped(<quark:smoker>, [[<minecraft:netherrack>, null, <minecraft:netherrack>],[<minecraft:netherrack>, <minecraft:fire_charge>, <minecraft:netherrack>], [<minecraft:netherrack>, <minecraft:netherrack>, <minecraft:netherrack>]]);

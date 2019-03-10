@@ -1,0 +1,19 @@
+{
+    "name": "Moving Around",
+    "icon": "chesttransporter:chesttransporter",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "At this time you might want to move things around to have better organization and chests are an hassle to move around. $(thing)Chests transporters can pick up chests and move them around/$."
+        },
+		{
+			"type": "crafting",
+			"title": "Chest Transporter",
+			"recipe": "chesttransporter:wooden_transporter",
+			"text": "The $(item)Wooden Chest Transporter/$ has 1 durability so will $(thing)work only 1 time/$.<br>When you'll be able to obtain Iron or Diamond you can craft Iron and Diamond ones that have much more durability."
+		}
+    ],
+	"sortnum": 12,
+	"advancement": "skythermal:getting_started/sieving"
+}

@@ -1,0 +1,11 @@
+setIcon(<minecraft:log>)
+
+setTitle("More Wood")
+
+setDescription("Plant a Sapling on a Rich Dirt")
+
+addParent("skythermal:getting_started/getting_wood")
+
+criteria1 = addCriteria("sapling", "triumph:right_click_block")
+criteria1.setItem(<minecraft:sapling>)
+criteria1.setBlock(<jasbtweaks:rich_dirt>)

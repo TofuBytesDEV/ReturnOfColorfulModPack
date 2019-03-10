@@ -1,0 +1,10 @@
+setIcon(<minecraft:bucket>)
+
+setTitle("Iron and Buckets")
+
+setDescription("Obtain a Bucket")
+
+addParent("skythermal:getting_started/gravel_sand_dust")
+
+criteria1 = addCriteria("bucket", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:bucket>)

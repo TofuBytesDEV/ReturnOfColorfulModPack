@@ -1,0 +1,28 @@
+{
+    "name": "Energy Not Needed",
+    "icon": "thermaldynamics:servo:0",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Even if some things require Energy, there are other things that don't. E.g. We can make an automatic Cobblestone Generator using Pistons and an Iron Rod. Or we can move things (items and liquids) around using Ducts. In this entry I'll show you how to make $(item)Ducts/$ and $(item)Servos/$."
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermaldynamics:servo",
+			"text": "$(item)Servos/$ needs to be attached to a Duct that will pull items or fluids from the inventory attached, by default they need redstone to start pulling, but by right-clicking on it you open an Interface to change it on top-right."
+		},
+		{
+			"type": "crafting",
+			"recipe": "thermaldynamics:duct_32_1",
+			"text": "$(item)ItemDucts/$ are basically pipes to transfer Items. As stated before they need a Servo to pull items. In this case we use the Opaque form because the transparent one needs Hardened Glass to be crafted."
+		},
+		{
+			"type": "crafting",
+			"recipe": "thermaldynamics:duct_16",
+			"text": "$(item)FluiDucts/$ instead are used to transfer Fluids, as the name might suggest. Still need a Servo to pull Liquids. Be aware that transporting hot liquids might result in break. To make the Opaque version replace the Glass with a Lead Ingot."
+		}
+    ],
+	"sortnum": 0,
+	"advancement": "skythermal:getting_started/lava"
+}

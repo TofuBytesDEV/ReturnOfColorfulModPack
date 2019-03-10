@@ -1,0 +1,18 @@
+{
+    "name": "Composting",
+    "icon": "exnihilocreatio:block_barrel0",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The grass seems too bright, isn't it? Well, you're right ... guess what ... it's $(thing)Fake Grass and Dirt/$. This Grass or Dirt drops nothing so you'll have to make Dirt if you want to plant more sapling and get more wood. $(thing)The only real dirt is the one that was under the tree/$. $(bold)Always remember to plant a Sapling before using them to make Dirt/$."
+        },
+		{
+			"type": "crafting",
+			"recipe": "exnihilocreatio:block_barrel0",
+			"text": "$(item)Barrels/$ are useful to $(thing)compost organic materials into dirt/$. For now you can only use $(item)Saplings/$ (or $(item)Apples/$).<br>By $(thing)advancing to the next chapter you'll obtain a Torch/$ to make those dark nights a little less dark."
+		}
+    ],
+	"sortnum": 6,
+	"advancement": "skythermal:getting_started/getting_wood"
+}

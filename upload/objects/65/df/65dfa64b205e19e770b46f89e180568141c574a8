@@ -1,0 +1,29 @@
+{
+    "name": "Iron Bucket",
+    "icon": "minecraft:iron_ingot",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It's time to grind now. To get a Cobblestone Generator you need $(item)Iron/$. To get Iron you need to Sieve Gravel with a Flint Mesh. How do you get flint? With the old dear method, place and destroy Gravel, or you can $(thing)craft 2 Gravel toghether to make a Flint/$, this will waste more Gravel but is faster than dealing with Luck ... your choice"
+        },
+		{
+			"type": "crafting",
+			"text": "Obtain 6 Flint and upgrade your old String Mesh.",
+			"recipe": "exnihilocreatio:item_mesh_2"
+		},
+		{
+			"type": "crafting",
+			"recipe2": "exnihilocreatio:ore_compression_iron",
+			"text": "Now sieve Gravel until you obtain 4 $(item)Iron Ores Pieces/$ which you can use to obtain an $(item)Iron Ore Chunk/$ which cooked will give an $(iron)Iron Ingot/$.<br>You can even sieve $(item)Crushed Granite/$ and $(thing)obtain Iron slightly more easily/$."
+		},
+		{
+			"type": "smelting",
+			"recipe": "exnihilocreatio:item_ore_iron:1",
+			"title": "Iron!!!",
+			"text": "You should really make a $(item)Bucket/$ with some nuggets now."
+		}
+    ],
+	"sortnum": 18,
+	"advancement": "skythermal:getting_started/gravel_sand_dust"
+}

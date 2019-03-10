@@ -1,0 +1,18 @@
+{
+    "name": "Burning Away",
+    "icon": "minecraft:furnace",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The first use of this Cobblestone should go for a $(item)Furnace/$. You could cook $(item)Rotten Flesh/$ to get a good food source plus you could get Charcoal and make a few $(item)Torches/$."
+        },
+        {
+            "type": "crafting",
+			"recipe": "crafttweaker:furnace",
+            "text": "If you play it correctly you could spare some Cobblestone for the crafting by using Slabs. Then I can merge back the slabs as two to get back other Cobblestone!"
+        }
+    ],
+	"sortnum": 15,
+	"advancement": "skythermal:getting_started/cobblestone"
+}

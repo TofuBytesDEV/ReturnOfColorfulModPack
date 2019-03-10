@@ -1,0 +1,10 @@
+setIcon(<minecraft:diamond>)
+
+setTitle("Diamonds")
+
+setDescription("Obtain a Diamond Mesh")
+
+addParent("skythermal:getting_started/iron")
+
+criteria1 = addCriteria("lava", "minecraft:inventory_changed")
+criteria1.addItem(<exnihilocreatio:item_mesh:4>)

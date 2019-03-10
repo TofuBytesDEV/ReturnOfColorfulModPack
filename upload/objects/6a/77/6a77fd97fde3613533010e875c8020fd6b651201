@@ -1,0 +1,25 @@
+#loader contenttweaker
+
+import mods.contenttweaker.VanillaFactory;
+
+var fakeDirt = VanillaFactory.createBlock("fake_dirt", <blockmaterial:ground>);
+fakeDirt.setLightValue(0);
+fakeDirt.setBlockHardness(0.25);
+fakeDirt.setToolClass("shovel");
+fakeDirt.setToolLevel(0);
+fakeDirt.setBlockSoundType(<soundtype:ground>);
+fakeDirt.setDropHandler(function(drops, world, position, state, fortune){
+	drops.clear();
+});
+fakeDirt.register();
+
+var fakeGrass = VanillaFactory.createBlock("fake_grass", <blockmaterial:grass>);
+fakeGrass.setLightValue(0);
+fakeGrass.setBlockHardness(0.3);
+fakeGrass.setToolClass("shovel");
+fakeGrass.setToolLevel(0);
+fakeGrass.setBlockSoundType(<soundtype:plant>);
+fakeGrass.setDropHandler(function(drops, world, position, state, fortune){
+	drops.clear();
+});
+fakeGrass.register();

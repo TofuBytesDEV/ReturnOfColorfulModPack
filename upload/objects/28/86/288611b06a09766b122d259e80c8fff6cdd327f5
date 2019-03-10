@@ -1,0 +1,18 @@
+{
+    "name": "Better Tools",
+    "icon": "minecraft:stone_axe",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "We finally have Cobblestone, but Cobblestone is so precious, $(thing)why waste it in tools/$? Well, Andesite, Diorite and Granite come in help here. $(thing)Since aren't really useful/$ right now other than for building, you can simply $(thing)use them to make tools/$ without wasting Cobblestone."
+        },
+        {
+            "type": "crafting",
+			"recipe": "quark:stone_axe",
+			"recipe2": "quark:stone_sword"
+        }
+    ],
+	"sortnum": 13,
+	"advancement": "skythermal:getting_started/sieving"
+}

@@ -1,0 +1,10 @@
+setIcon(<thermalexpansion:machine:3>)
+
+setTitle("Alloying")
+
+setDescription("Obtain an Induction Smelter")
+
+addParent("skythermal:some_automation/pulverizer")
+
+criteria1 = addCriteria("smelter", "minecraft:inventory_changed")
+criteria1.addItem(<thermalexpansion:machine:3>)

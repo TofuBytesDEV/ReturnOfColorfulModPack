@@ -1,0 +1,42 @@
+{
+	"name": "fruit",
+	"icon": "minecraft:apple",
+	"color": "cd73f4",
+	"enabled": true,
+	"food": {
+		"oredict": [
+			"cropAvocado",
+			"cropCandle",
+			"cropCherry",
+			"cropCoconut",
+			"cropDate",
+			"cropDeathFruit",
+			"cropDurian",
+			"cropLemon",
+			"cropLifeFruit",
+			"cropOlive",
+			"cropPapaya",
+			"cropPlum",
+			"foodApplesauce",
+			"foodBerry",
+			"foodFruit",
+			"foodFruitsalad",
+			"foodGrapejuice",
+			"foodRaisins",
+			"foodToastedcoconut",
+			"foodVinegar",
+			"fruitForestry",
+			"listAllberry",
+			"listAllfruit",
+			"listAllsmoothie"
+		],
+		"items": [
+			"minecraft:apple",
+			"minecraft:chorus_fruit",
+			"minecraft:golden_apple:0",
+			"minecraft:golden_apple:1",
+			"minecraft:melon",
+			"minecraft:pumpkin_pie"
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Storing Energy",
+    "icon": "thermalexpansion:cell",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Dynamos are attached to the machines right now, most probably you're wasting lots of Energy. You need to store this Energy in $(item)Cells/$. First off you need $(item)FluxDucts/$, those Ducts are used to move Energy around and compared to Item and FluiDucts those don't need Servos."
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermaldynamics:duct_0",
+			"text": "$(item)FluxDucts/$ should be smart enough to know when input and output Energy."
+		},
+		{
+			"type": "crafting",
+			"recipe": "thermalexpansion:cell",
+			"text": "$(item)Cells/$ instead don't really know where to input and output so you should $(thing)configure/$ it's sides. Attaching a Dynamo to a Cell connected to a Machines via FluxDucts will transfer the energy."
+		}
+    ],
+	"sortnum": 106,
+	"advancement": "skythermal:some_automation/induction_smelter"
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "contenttweaker:block/fake_grass",
+    "textures": {
+        "particle": "blocks/dirt",
+        "bottom": "blocks/dirt",
+        "top": "contenttweaker:blocks/fake_grass_top",
+        "side": "contenttweaker:blocks/fake_grass_side"
+    }
+}

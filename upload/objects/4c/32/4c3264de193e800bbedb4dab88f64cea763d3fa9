@@ -1,0 +1,13 @@
+
+setIcon(<exnihilocreatio:block_barrel0>)
+
+setTitle("Composting")
+
+setDescription("Acquire some Dirt from a Barrel")
+
+addParent("skythermal:getting_started/getting_wood")
+
+criteria2 = addCriteria("dirt", "triumph:right_click_block")
+criteria2.setBlock(<exnihilocreatio:block_barrel0, tile:{mode:{name:"block",id:"minecraft:dirt",Count:1b,Damage:0s}}>)
+
+setRewardItem(<minecraft:torch>)

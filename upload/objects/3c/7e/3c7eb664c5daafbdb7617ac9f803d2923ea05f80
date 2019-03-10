@@ -1,0 +1,13 @@
+{
+    "name": "Quark's Building",
+    "icon": "quark:midori_block",
+    "category": "building",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Quark mod adds a s**t ton blocks to build: $(item)Midori Block/$: the green counterpart to Purpur Blocks, $(item)Colored Planks/$, $(item)Vertical Planks/$, $(item)Duskbound Blocks/$, $(item)Sandy Bricks/$, $(item)Charred Nether Bricks/$, and much more ...<br>Write $(thing)@Quark/$ in JEI and the the first pages."
+        }
+    ],
+	"sortnum": 2,
+	"advancement": "skythermal:getting_started/iron"
+}

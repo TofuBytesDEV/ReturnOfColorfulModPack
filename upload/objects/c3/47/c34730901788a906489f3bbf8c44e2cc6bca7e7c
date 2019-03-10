@@ -1,0 +1,10 @@
+setIcon(<thermalexpansion:cache:0>)
+
+setTitle("Stacking Up")
+
+setDescription("Obtain a Cache")
+
+addParent("skythermal:some_automation/energy_not_needed")
+
+criteria1 = addCriteria("cache", "minecraft:inventory_changed")
+criteria1.addItem(<thermalexpansion:cache:0>)

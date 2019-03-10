@@ -1,0 +1,11 @@
+
+setIcon(<minecraft:furnace>)
+
+setTitle("Burning Away")
+
+setDescription("Acquire a Furnace")
+
+addParent("skythermal:getting_started/cobblestone")
+
+criteria1 = addCriteria("planks", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:furnace>)

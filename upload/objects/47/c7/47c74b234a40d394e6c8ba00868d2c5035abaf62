@@ -1,0 +1,9 @@
+setIcon(<minecraft:leather>)
+
+setTitle("Some Peaceful Life")
+
+setDescription("Breed 2 animals of your choice")
+
+addParent("skythermal:husbandry/farming")
+
+criteria1 = addCriteria("breed", "minecraft:bred_animals")

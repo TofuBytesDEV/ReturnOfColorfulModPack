@@ -1,0 +1,11 @@
+
+setIcon(<minecraft:wooden_axe>)
+
+setTitle("The Pressure")
+
+setDescription("Acquire a Wooden Axe")
+
+addParent("skythermal:getting_started/getting_wood")
+
+criteria1 = addCriteria("planks", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:wooden_axe>)

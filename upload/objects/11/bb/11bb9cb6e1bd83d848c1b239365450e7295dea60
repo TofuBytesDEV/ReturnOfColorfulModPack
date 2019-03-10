@@ -1,0 +1,16 @@
+setIcon(<thermaldynamics:servo:0>)
+
+setTitle("Energy Not Needed!")
+
+setDescription("Obtain some Item Ducts and a Servo")
+
+addParent("skythermal:some_automation/automation_age")
+
+criteria1 = addCriteria("servo", "minecraft:inventory_changed")
+criteria1.addItem(<thermaldynamics:servo:0>)
+
+criteria2 = addCriteria("item_duct", "minecraft:inventory_changed")
+criteria2.addItem(<thermaldynamics:duct_32:1>)
+
+criteria3 = addCriteria("fluiduct", "minecraft:inventory_changed")
+criteria3.addItem(<thermaldynamics:duct_16:0>)

@@ -1,0 +1,10 @@
+setIcon(<minecraft:nether_wart>)
+
+setTitle("Potions")
+
+setDescription("Obtain Nether Wart")
+
+addParent("skythermal:getting_started/soul_sand")
+
+criteria1 = addCriteria("nether_wart", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:nether_wart>)

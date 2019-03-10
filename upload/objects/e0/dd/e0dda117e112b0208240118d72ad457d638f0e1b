@@ -1,0 +1,21 @@
+# Configuration file
+
+enabled {
+    B:"quark:biotite_block"=true
+    B:"quark:duskbound_block"=true
+    B:"quark:midori_block"=true
+    B:"quark:soul_sandstone"=true
+    B:"quark:stained_planks"=true
+}
+
+
+enabled_groups {
+}
+
+
+general {
+    # Whether or not to enable debug functionality. [default: false]
+    B:enableDebugFeatures=false
+}
+
+

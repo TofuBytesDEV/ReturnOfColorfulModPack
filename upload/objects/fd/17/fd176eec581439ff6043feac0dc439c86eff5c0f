@@ -1,0 +1,27 @@
+{
+    "name": "Crucible and Hot Liquids",
+    "icon": "minecraft:lava_bucket",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Finally we can make a $(thing)Cobblestone Generator/$. Finally we no longer need to sieve tons of dirt to obtain Cobblestone. Finally we can burn our wooden platform with lava ... wait ... uhm ... ye, we're going to obtain lava so be careful."
+        },
+        {
+            "type": "text",
+            "text": "To obtain Lava you need a Crucible ... no, not the one you used to make Water, but a new one made out of $(item)Porcelain/$.<br>$(thing)You first need Clay/$. To make Clay put a Dust block in a $(item)Barrel/$ or $(item)Crucible/$ filled with water. To make Porcelain now break this block into $(item)Clay Balls/$ and mix it with some $(item)Bone Meal/$. BAM $(item)Porcelain/$. Now craft an $(item)Unfired Crucible/$ and then cook it."
+        },
+		{
+			"type": "crafting",
+			"recipe2": "exnihilocreatio:block_crucible_0",
+			"recipe": "exnihilocreatio:item_material_1"
+		},
+		{
+			"type": "smelting",
+			"recipe": "exnihilocreatio:block_crucible",
+            "text": "The last step is placing the Crucible on a torch and put 4 $(item)Cobblestone/$ in it.<br>It will take a while, but when will finish you'll get Lava. Get it with your Bucket, and finally make a $(thing)Cobblestone Generator/$."
+		}
+    ],
+	"sortnum": 19,
+	"advancement": "skythermal:getting_started/iron"
+}

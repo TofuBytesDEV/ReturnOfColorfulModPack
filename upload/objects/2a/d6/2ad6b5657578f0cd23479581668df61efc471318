@@ -1,0 +1,10 @@
+setIcon(<thermalexpansion:machine:1>)
+
+setTitle("Pulverizing")
+
+setDescription("Obtain a Pulverizer")
+
+addParent("skythermal:some_automation/redstone_furnace")
+
+criteria1 = addCriteria("pulverizer", "minecraft:inventory_changed")
+criteria1.addItem(<thermalexpansion:machine:1>)

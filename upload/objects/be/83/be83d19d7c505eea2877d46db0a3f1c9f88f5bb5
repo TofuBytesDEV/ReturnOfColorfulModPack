@@ -1,0 +1,20 @@
+recipes.remove(<ultimatecobblegen:dustgenerator>);
+recipes.remove(<ultimatecobblegen:glowstonegenerator>);
+recipes.remove(<ultimatecobblegen:redstonegenerator>);
+recipes.remove(<ultimatecobblegen:claygenerator>);
+recipes.remove(<ultimatecobblegen:soulgenerator>);
+recipes.remove(<ultimatecobblegen:quartzgenerator>);
+recipes.remove(<ultimatecobblegen:nethergenerator>);
+recipes.remove(<ultimatecobblegen:endgenerator>);
+recipes.remove(<ultimatecobblegen:snowgenerator>);
+recipes.remove(<ultimatecobblegen:icegenerator>);
+recipes.remove(<ultimatecobblegen:obsidiangenerator>);
+recipes.remove(<ultimatecobblegen:fungusgenerator>);
+recipes.remove(<ultimatecobblegen:grassgenerator>);
+recipes.remove(<ultimatecobblegen:dirtgenerator>);
+recipes.remove(<ultimatecobblegen:sandgenerator>);
+recipes.remove(<ultimatecobblegen:gravelgenerator>);
+
+
+recipes.remove(<ultimatecobblegen:cobblegenerator>);
+recipes.addShapedMirrored("cobblestone_generator", <ultimatecobblegen:cobblegenerator>, [[<minecraft:stone>, <minecraft:diamond_pickaxe>, <minecraft:stone>],[<minecraft:water_bucket>.transformReplace(<minecraft:bucket>), null, <minecraft:lava_bucket>.transformReplace(<minecraft:bucket>)], [<minecraft:stone>, <minecraft:dragon_breath>, <minecraft:stone>]]);

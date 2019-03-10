@@ -1,0 +1,28 @@
+{
+    "name": "Quartz and Ghast",
+    "icon": "minecraft:soul_sand",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There's another thing that we miss ... $(item)Soul Sand/$. But even Quartz and Ghast Tears. To obtain Soul Sand you need $(item)Ancient Spores/$. Those should have popped out from sieving Dirt or Sand."
+        },
+		{
+			"type": "spotlight",
+			"item": "exnihilocreatio:item_material:3",
+			"text": "When used on Dirt those spores will transform it in Mycelium. With Mycelium we can now make $(item)Witchwater/$ (not recommended taking a bath in it, at least you).<br>To obtain Witchwater place a Barrel with Water in it on a Mycelium block."
+		},
+		{
+			"type": "spotlight",
+			"item": "forge:bucketfilled{FluidName:\"witchwater\",Amount:1000}",
+			"text": "Slowly the Water will transform in Witchwater. The more Mycelium is around the barrel, the faster it will go. In the meantime Mushrooms have a chance to grow on the Mycelium around."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:soul_sand",
+			"text": "To finally make $(item)Soul Sand/$ put a Sand (or Red Sand) into the Witchwater barrel.<br>Now you can sieve Soul Sand with a Diamond Mesh and obtain Quartz, Ghast Tear and ... Soul Beads?."
+		}
+    ],
+	"sortnum": 23,
+	"advancement": "skythermal:getting_started/more_sieving"
+}

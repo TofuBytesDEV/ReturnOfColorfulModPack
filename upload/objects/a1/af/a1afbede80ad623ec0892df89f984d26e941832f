@@ -1,0 +1,10 @@
+setIcon(<thermalexpansion:dynamo:0>)
+
+setTitle("I need Energy")
+
+setDescription("Obtain your first Dynamo")
+
+addParent("skythermal:some_automation/automation_age")
+
+criteria1 = addCriteria("dynamo", "minecraft:inventory_changed")
+criteria1.addItem(<thermalexpansion:dynamo:0>)

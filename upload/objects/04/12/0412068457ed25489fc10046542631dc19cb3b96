@@ -1,0 +1,18 @@
+{
+    "name": "Stacking Up",
+    "icon": "thermalexpansion:cache:0",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Since You got a Cobblestone Generator you might end up having a chest full of Cobblestone ... and it's not enough ... You need a $(thing)better way to store big quantities of a single item/$.<br>Here comes the $(item)Cache/$, a Block that can store large quantities of a single item."
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermalexpansion:cache",
+			"text": "Basic one can store up to 2000 items, slightly more than a single Chest, but can be upgraded so ...<br>To place items in it you can left click, to remove them right-click; double left clicking will move all the items in."
+		}
+    ],
+	"sortnum": 3,
+	"advancement": "skythermal:some_automation/energy_not_needed"
+}

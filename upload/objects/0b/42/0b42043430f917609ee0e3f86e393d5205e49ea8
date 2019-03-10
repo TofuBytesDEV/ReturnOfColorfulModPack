@@ -1,0 +1,13 @@
+{
+    "name": "The Pressure",
+    "icon": "minecraft:wooden_axe",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Seems like that the pressure up here makes blocks pretty hard to break. I think an Axe would help.<br>Axes even break Leaves faster!"
+        }
+    ],
+	"sortnum": 5,
+	"advancement": "skythermal:getting_started/getting_wood"
+}

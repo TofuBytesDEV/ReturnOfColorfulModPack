@@ -1,0 +1,17 @@
+{
+    "name": "Still need Monsters",
+    "icon": "minecraft:rotten_flesh",
+    "category": "getting_started",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Since you're now probably waiting for those trees to grow since you almost surely finished the free Bone Meal you got, you should really build a small dark area away from you main island to make those pesky monsters spawn. During the building process might be useful to press $(thing)F7 to see where mobs can spawn/$: yellow means that they can spawn on night only, red they can spawn anyway."
+        },
+        {
+            "type": "text",
+			"text": "$(item)Rotten Flesh/$ can be cooked to make some good food (when you'll be able to cook it) or compost it for dirt, $(item)Bones/$ ... well, those trees take ages to grow, so Bone Meal is always good (and can be used to make Bone Crook that have more durability and are much faster than normal Crooks) and $(item)Gunpowder/$ to make explosives and Splash Potions (when you'll be able to)."
+        }
+    ],
+	"sortnum": 7,
+	"advancement": "skythermal:getting_started/composting"
+}

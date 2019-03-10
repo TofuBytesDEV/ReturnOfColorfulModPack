@@ -1,0 +1,18 @@
+{
+    "name": "Pulverizing",
+    "icon": "thermalexpansion:machine:1",
+    "category": "some_automation",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Up next we'll keep going with a machine that will give no more uses to Hammers: the $(item)Pulverizer/$. The Pulverizer breaks things down into smaller parts. $(thing)You can double ores/$, instead of cooking $(item)Ore Chunks/$, they can be pulverized to obtain 2 pulverized mineral that when smelted will give Ingots."
+        },
+		{
+			"type": "crafting",
+			"recipe": "thermalexpansion:machine_1",
+			"text": "You can throw the Hammers away since the Pulverizer will break things the same as an Hammer. Cobblestone -> Gravel -> Sand -> Dust."
+		}
+    ],
+	"sortnum": 104,
+	"advancement": "skythermal:some_automation/redstone_furnace"
+}
