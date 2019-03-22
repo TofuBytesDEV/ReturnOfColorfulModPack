@@ -14,13 +14,6 @@
       "version" : "2019-02-19-02-07-09",
       "location" : "vanilla-forge.json",
       "priority" : 0
-    },
-    {
-      "title" : null,
-      "name" : "Twitch Havok",
-      "version" : "2019-03-04-13-47-24",
-      "location" : "twitch-havok.json",
-      "priority" : 0
     }
   ]
 }
