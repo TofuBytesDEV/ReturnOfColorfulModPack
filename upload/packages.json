@@ -2,6 +2,13 @@
   "minimumVersion" : 1,
   "packages" : [
     {
+      "title" : "Colorful Mod Pack 1.12",
+      "name" : "Colorful Mod Pack 1.12",
+      "version" : "2019-03-27-02-32-06",
+      "location" : "colorful-mod-pack-1.12.json",
+      "priority" : 3
+    },
+    {
       "title" : "Return of Colorful Mod Pack",
       "name" : "Return of Colorful Mod Pack",
       "version" : "2019-02-20-02-25-31",
